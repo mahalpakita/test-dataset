@@ -1,0 +1,74 @@
+{
+  "name": {
+    "en": "Visa"
+  },
+  "description": {
+    "en": null
+  },
+  "key": "visa",
+  "logo": null,
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "active",
+  "features": [
+    {
+      "title": "Global card network",
+      "description": "Provides payment network rails used by issuers and acquirers to route and authorize Visa card transactions worldwide."
+    },
+    {
+      "title": "Multiple card types",
+      "description": "Supports credit, debit, and prepaid Visa-branded cards issued by participating financial institutions."
+    },
+    {
+      "title": "In-person and online payments",
+      "description": "Used for card-present transactions (POS) and card-not-present e-commerce and in-app payments via acquiring/payment gateway integrations."
+    },
+    {
+      "title": "Security and standards",
+      "description": "Operates under industry standards such as EMV and PCI DSS in collaboration with the payments ecosystem."
+    },
+    {
+      "title": "Dispute and chargeback process",
+      "description": "Includes rules and processes for chargebacks and dispute management between issuers, acquirers, and merchants."
+    },
+    {
+      "title": "Tokenization support",
+      "description": "Supports network tokenization in partnership with issuers and wallet providers to enhance security in digital payments."
+    }
+  ],
+  "url": "https://visa.com",
+  "products": [],
+  "api_fields": [],
+  "playbooks": [],
+  "slug": "visa",
+  "seo_title": "Visa payments integration: cards, network rails, and issuing",
+  "seo_description": "Visa is a global payments technology company and card network. Learn about Visa payment acceptance, card present and online transactions, and common integration",
+  "keywords": "Visa, card network, credit card, debit card, payments, acquiring, issuing, VisaNet",
+  "excerpt": "Visa is a global payments technology company and card network used for credit, debit, and prepaid card transactions.",
+  "availability": {
+    "availability_type": "global",
+    "note": "Visa is available globally, subject to local issuing, acquiring, and regulatory requirements.",
+    "source_url": "https://visa.com"
+  },
+  "tip": "Most merchants integrate Visa via their payment gateway or acquirer rather than directly with Visa; check with your acquirer for Visa acceptance enablement and requirements.",
+  "faq": [
+    {
+      "question": "Can I integrate directly with Visa to accept payments?",
+      "answer": "Typically, merchants accept Visa through a payment gateway and an acquiring bank (acquirer). Direct integration with Visa is less common and usually applies to specific Visa programs or partners."
+    },
+    {
+      "question": "Does Visa issue cards to consumers?",
+      "answer": "No. Visa-branded cards are generally issued by banks and other licensed financial institutions; Visa operates the network and sets rules and standards."
+    },
+    {
+      "question": "Is Visa available worldwide?",
+      "answer": "Visa operates globally, though availability can depend on local issuing/acquiring coverage and regulatory restrictions."
+    },
+    {
+      "question": "Where can I find developer documentation?",
+      "answer": "Visa offers developer resources and APIs through Visa Developer (developer.visa.com), but most merchant payment integrations are handled through a gateway or acquirer."
+    }
+  ]
+}
