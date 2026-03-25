@@ -1,0 +1,20 @@
+{
+  "name": {
+    "en": "3dsecure-io"
+  },
+  "description": {
+    "en": null
+  },
+  "key": "3dsecure-io",
+  "logo": null,
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "active",
+  "features": [],
+  "url": "https://www.3dsecure.io/",
+  "products": [],
+  "api_fields": [],
+  "playbooks": []
+}
