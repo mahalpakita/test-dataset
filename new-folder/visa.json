@@ -1,0 +1,69 @@
+{
+  "name": {
+    "en": "visa"
+  },
+  "description": {
+    "en": null
+  },
+  "key": "visa",
+  "logo": null,
+  "docs_url": null,
+  "status_page_url": "https://downdetector.ph/status/visa/",
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "active",
+  "features": [],
+  "url": "https://www.visa.com.ph/",
+  "products": [],
+  "api_fields": [],
+  "playbooks": [
+    {
+      "type": "company_overview",
+      "source": "wikidata_brandfetch",
+      "lines": [
+        "Official Website: https://corporate.visa.com/",
+        "LinkedIn Page: https://www.linkedin.com/company/visa/",
+        "Foundation: 01/01/1958",
+        "Stock ID: -",
+        "Company Type: multinational corporation",
+        "Employees: 11300",
+        "Location: San Francisco"
+      ]
+    }
+  ],
+  "output": [
+    {
+      "id": "msg_08c7f52355843d300069c4fe89b9908190a60236743ea578e7",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": {
+            "name": {
+              "en": "Visa"
+            },
+            "description": {
+              "en": "American multinational financial services corporation"
+            },
+            "key": "visa",
+            "logo": null,
+            "docs_url": null,
+            "status_page_url": "https://downdetector.ph/status/visa/",
+            "risk_appetite": null,
+            "integration_methods": [],
+            "status": "active",
+            "features": [],
+            "url": "https://corporate.visa.com/",
+            "products": [],
+            "api_fields": [],
+            "playbooks": []
+          }
+        }
+      ],
+      "role": "assistant"
+    }
+  ]
+}
