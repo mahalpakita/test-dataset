@@ -21,13 +21,13 @@
       "type": "company_overview",
       "source": "wikidata_brandfetch",
       "lines": [
-        "Official Website: https://www.mastercard.com",
-        "LinkedIn Page: -",
-        "Foundation: -",
+        "Official Website: https://www.mastercard.com/",
+        "LinkedIn Page: https://www.linkedin.com/company/mastercard/",
+        "Foundation: 01/01/1966",
         "Stock ID: -",
-        "Company Type: -",
-        "Employees: -",
-        "Location: -"
+        "Company Type: business",
+        "Employees: 8200",
+        "Location: Purchase"
       ]
     }
   ],
