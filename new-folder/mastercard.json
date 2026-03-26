@@ -1,0 +1,20 @@
+{
+  "name": {
+    "en": "Mastercard"
+  },
+  "description": {
+    "en": "Mastercard is a global payments technology company and card network that enables electronic payments between consumers, merchants, financial institutions, and governments."
+  },
+  "key": "mastercard",
+  "logo": null,
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "active",
+  "features": [],
+  "url": "https://www.mastercard.com",
+  "products": [],
+  "api_fields": [],
+  "playbooks": []
+}
