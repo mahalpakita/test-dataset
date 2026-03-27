@@ -1,6 +1,6 @@
 {
   "name": {
-    "en": "TSYS"
+    "en": "tsys"
   },
   "description": {
     "en": null
@@ -11,47 +11,59 @@
   "status_page_url": null,
   "risk_appetite": null,
   "integration_methods": [],
-  "status": "inactive",
+  "status": "active",
   "features": [],
-  "url": null,
-  "products": [
+  "url": "https://www.tsys.com/",
+  "products": [],
+  "api_fields": [],
+  "playbooks": [
     {
-      "key": null,
-      "type": "processor",
-      "processor_types": [
-        "acquirer"
-      ],
-      "licenses": [],
-      "processor_membership": [],
-      "spons": [],
-      "3ds_supported_protocols": [],
-      "fraud_prevention_methods": [],
-      "dispute_resolution_methods": [],
-      "payment_method_types": [],
-      "name": {},
-      "processor_payment_methods": [],
-      "card": {
-        "payment_method_subtype": null,
-        "network": {
-          "scope": null,
-          "network_name": null,
-          "uses_network": null
-        },
-        "type": [],
-        "card_length": [],
-        "luhn_validation_required": true,
-        "security_code": {
-          "label": null,
-          "length": null
-        }
-      },
-      "processing_currencies": [],
-      "settlement_currencies": [],
-      "languages": [],
-      "merchant_eligibility_countries": [],
-      "shopper_availability_countries": []
+      "type": "company_overview",
+      "source": "wikidata_brandfetch",
+      "lines": [
+        "Official Website: https://www.tsys.com/",
+        "LinkedIn Page: -",
+        "Foundation: -",
+        "Stock ID: -",
+        "Company Type: -",
+        "Employees: -",
+        "Location: -"
+      ]
     }
   ],
-  "api_fields": [],
-  "playbooks": []
+  "output": [
+    {
+      "id": "msg_0ad26ae66c50629b0069c5dfc0b6308196a3150756539729b7",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": {
+            "name": {
+              "en": "TSYS"
+            },
+            "description": {
+              "en": null
+            },
+            "key": "tsys",
+            "logo": null,
+            "docs_url": null,
+            "status_page_url": null,
+            "risk_appetite": null,
+            "integration_methods": [],
+            "status": "active",
+            "features": [],
+            "url": "https://www.tsys.com/",
+            "products": [],
+            "api_fields": [],
+            "playbooks": []
+          }
+        }
+      ],
+      "role": "assistant"
+    }
+  ]
 }
