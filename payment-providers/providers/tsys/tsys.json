@@ -1,26 +1,24 @@
 {
   "name": {
-    "en": "TSYS"
+    "en": "tsys"
   },
   "description": {
     "en": null
   },
   "key": "tsys",
-  "logo": null,
+  "logo": "https://cdn.brandfetch.io/idSOisTcwP/theme/light/logo.svg?c=1bxk8uotqjt9mrpg8g7yhlu088oPXbZzerr",
   "docs_url": null,
   "status_page_url": null,
   "risk_appetite": null,
   "integration_methods": [],
-  "status": "inactive",
+  "status": "active",
   "features": [],
-  "url": null,
+  "url": "https://www.tsys.com/",
   "products": [
     {
       "key": null,
       "type": "processor",
-      "processor_types": [
-        "acquirer"
-      ],
+      "processor_types": [],
       "licenses": [],
       "processor_membership": [],
       "spons": [],
@@ -49,9 +47,25 @@
       "settlement_currencies": [],
       "languages": [],
       "merchant_eligibility_countries": [],
-      "shopper_availability_countries": []
+      "shopper_availability_countries": [],
+      "channel": [],
+      "most_used_country": null
     }
   ],
   "api_fields": [],
-  "playbooks": []
+  "playbooks": [
+    {
+      "type": "company_overview",
+      "source": "wikidata_brandfetch",
+      "lines": [
+        "Official Website: http://www.tsys.com/",
+        "LinkedIn Page: https://linkedin.com/company/tsys",
+        "Foundation: 01/01/1983",
+        "Stock ID: -",
+        "Company Type: business",
+        "Employees: 10001",
+        "Location: -"
+      ]
+    }
+  ]
 }
