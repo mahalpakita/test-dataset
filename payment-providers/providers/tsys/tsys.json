@@ -1,9 +1,9 @@
 {
   "name": {
-    "en": "tsys"
+    "en": "TSYS"
   },
   "description": {
-    "en": "TSYS (Total System Services) is a global payment processing and issuer solutions provider, offering merchant acquiring, card processing, and related payment services for businesses and financial institutions."
+    "en": "TSYS (Total System Services) is a global payments processor and merchant acquiring technology provider, supporting card acceptance, authorization, clearing and settlement for merchants, acquirers, and financial institutions."
   },
   "key": "tsys",
   "logo": "https://cdn.brandfetch.io/idSOisTcwP/theme/light/logo.svg?c=1bxk8uotqjt9mrpg8g7yhlu088oPXbZzerr",
@@ -11,28 +11,28 @@
   "status_page_url": null,
   "risk_appetite": null,
   "integration_methods": [
-    "api",
-    "hosted_payment_page",
-    "pos_integration"
+    "gateway",
+    "direct_api",
+    "partner_integration"
   ],
   "status": "active",
   "features": [
+    "card_processing",
     "merchant_acquiring",
     "payment_processing",
-    "card_present_processing",
-    "ecommerce_payments",
-    "tokenization",
     "fraud_tools",
-    "chargeback_dispute_management"
+    "chargeback_management",
+    "tokenization",
+    "reporting_analytics"
   ],
   "url": "https://www.tsys.com/",
   "products": [
     {
-      "key": null,
+      "key": "merchant-acquiring-processing",
       "type": "processor",
       "processor_types": [
-        "acquirer",
-        "gateway"
+        "acquirer_processor",
+        "gateway_processor"
       ],
       "licenses": [],
       "processor_membership": [],
@@ -40,16 +40,19 @@
       "3ds_supported_protocols": [],
       "fraud_prevention_methods": [
         "risk_scoring",
-        "fraud_screening"
+        "rules_based_fraud_screening",
+        "velocity_checks",
+        "tokenization"
       ],
       "dispute_resolution_methods": [
-        "chargeback_management"
+        "chargeback_management",
+        "retrieval_requests_handling"
       ],
       "payment_method_types": [
         "card"
       ],
       "name": {
-        "en": "TSYS Merchant Solutions"
+        "en": "Merchant acquiring & card processing"
       },
       "processor_payment_methods": [
         "visa",
@@ -89,7 +92,7 @@
         "online",
         "in_person"
       ],
-      "most_used_country": "United States"
+      "most_used_country": null
     }
   ],
   "api_fields": [],
@@ -104,8 +107,89 @@
         "Stock ID: -",
         "Company Type: business",
         "Employees: 10001",
-        "Location: United States"
+        "Location: Columbus"
       ]
     }
-  ]
+  ],
+  "slug": "tsys",
+  "company_overview": {
+    "official_website": "https://www.tsys.com/",
+    "linkedin_page": "https://linkedin.com/company/tsys",
+    "foundation": "01/01/1983",
+    "stock_id": null,
+    "company_type": "business",
+    "employees": "10001",
+    "location": "United States"
+  },
+  "developer_links": [],
+  "content_features": [
+    {
+      "title": "Card authorization processing",
+      "description": "Card authorization processing for ecommerce and in-store payments via acquirer and processor integrations."
+    },
+    {
+      "title": "Network connectivity",
+      "description": "Connections to major card networks for end-to-end transaction processing through acquiring partners."
+    },
+    {
+      "title": "Omnichannel acceptance",
+      "description": "Support for point-of-sale and online acceptance patterns, typically delivered through gateways and ISV/ISO partners."
+    },
+    {
+      "title": "Fraud and risk tools",
+      "description": "Tools that help reduce fraud and improve decisioning, commonly including rules, scoring, and tokenization."
+    },
+    {
+      "title": "Approval-rate optimization",
+      "description": "Practical levers to improve approval rates, such as cleaner authorization data, optimized retries, and better decline diagnostics."
+    },
+    {
+      "title": "Dispute management",
+      "description": "Operational support for retrieval requests and chargebacks, including workflows and reporting for dispute handling."
+    },
+    {
+      "title": "Payment data security",
+      "description": "Security features used to reduce exposure of sensitive card data, commonly including tokenization."
+    },
+    {
+      "title": "Reporting and analytics",
+      "description": "Reporting capabilities to monitor authorizations, declines, settlements, and chargeback performance over time."
+    }
+  ],
+  "tip": "Track your top decline reasons by BIN and merchant category, then tune authorization fields (e.g., AVS/CVV, billing data) to reduce avoidable declines.",
+  "availability": {
+    "availability_type": "global",
+    "countries": []
+  },
+  "faq": [
+    {
+      "question": "What is TSYS in the payments stack?",
+      "answer": "TSYS primarily provides payment processing and acquiring technology (authorization, clearing, settlement) for acquirers, banks, and merchant partners rather than being a simple checkout app."
+    },
+    {
+      "question": "Can I integrate TSYS directly as a merchant?",
+      "answer": "Often you access TSYS through an acquiring bank, payment gateway, or ISV/ISO partner. Direct integrations may be available depending on your acquiring relationship and solution."
+    },
+    {
+      "question": "What payment methods does TSYS support?",
+      "answer": "TSYS is best known for card processing through major card networks. Exact methods and capabilities depend on your acquiring setup and region."
+    },
+    {
+      "question": "How can I improve approval rates with TSYS?",
+      "answer": "Start by analyzing decline codes and issuer patterns, then improve data quality (billing/AVS, CVV where appropriate), reduce duplicate attempts, and align retry logic with issuer behavior."
+    },
+    {
+      "question": "Does TSYS provide fraud tools?",
+      "answer": "TSYS commonly supports risk and fraud tooling as part of processing or through partner modules. Availability and configuration depend on your product package."
+    },
+    {
+      "question": "How are chargebacks handled?",
+      "answer": "Chargebacks are typically managed through your acquirer/processor workflow. TSYS solutions commonly support dispute reporting and operational handling, but responsibilities vary by acquiring relationship."
+    }
+  ],
+  "seo": {
+    "seo_title": "TSYS payment processing for merchants",
+    "seo_description": "TSYS is a global payment processor providing merchant acquiring and card processing, with tools for authorization performance, fraud management, and dispute workflows.",
+    "keywords": "TSYS, payment processor, merchant acquiring, card processing, fraud tools, chargebacks, authorization"
+  }
 }
