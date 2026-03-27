@@ -1,57 +1,111 @@
 {
   "name": {
-    "en": "TSYS"
+    "en": "tsys"
   },
   "description": {
-    "en": null
+    "en": "TSYS (Total System Services) is a global payment processing and issuer solutions provider, offering merchant acquiring, card processing, and related payment services for businesses and financial institutions."
   },
   "key": "tsys",
-  "logo": null,
+  "logo": "https://cdn.brandfetch.io/idSOisTcwP/theme/light/logo.svg?c=1bxk8uotqjt9mrpg8g7yhlu088oPXbZzerr",
   "docs_url": null,
   "status_page_url": null,
   "risk_appetite": null,
-  "integration_methods": [],
-  "status": "inactive",
-  "features": [],
-  "url": null,
+  "integration_methods": [
+    "api",
+    "hosted_payment_page",
+    "pos_integration"
+  ],
+  "status": "active",
+  "features": [
+    "merchant_acquiring",
+    "payment_processing",
+    "card_present_processing",
+    "ecommerce_payments",
+    "tokenization",
+    "fraud_tools",
+    "chargeback_dispute_management"
+  ],
+  "url": "https://www.tsys.com/",
   "products": [
     {
       "key": null,
       "type": "processor",
       "processor_types": [
-        "acquirer"
+        "acquirer",
+        "gateway"
       ],
       "licenses": [],
       "processor_membership": [],
       "spons": [],
       "3ds_supported_protocols": [],
-      "fraud_prevention_methods": [],
-      "dispute_resolution_methods": [],
-      "payment_method_types": [],
-      "name": {},
-      "processor_payment_methods": [],
+      "fraud_prevention_methods": [
+        "risk_scoring",
+        "fraud_screening"
+      ],
+      "dispute_resolution_methods": [
+        "chargeback_management"
+      ],
+      "payment_method_types": [
+        "card"
+      ],
+      "name": {
+        "en": "TSYS Merchant Solutions"
+      },
+      "processor_payment_methods": [
+        "visa",
+        "mastercard",
+        "amex",
+        "discover"
+      ],
       "card": {
-        "payment_method_subtype": null,
+        "payment_method_subtype": "credit_debit",
         "network": {
-          "scope": null,
+          "scope": "global",
           "network_name": null,
-          "uses_network": null
+          "uses_network": true
         },
-        "type": [],
-        "card_length": [],
+        "type": [
+          "credit",
+          "debit"
+        ],
+        "card_length": [
+          13,
+          15,
+          16,
+          19
+        ],
         "luhn_validation_required": true,
         "security_code": {
-          "label": null,
-          "length": null
+          "label": "CVV",
+          "length": 3
         }
       },
       "processing_currencies": [],
       "settlement_currencies": [],
       "languages": [],
       "merchant_eligibility_countries": [],
-      "shopper_availability_countries": []
+      "shopper_availability_countries": [],
+      "channel": [
+        "online",
+        "in_person"
+      ],
+      "most_used_country": "United States"
     }
   ],
   "api_fields": [],
-  "playbooks": []
+  "playbooks": [
+    {
+      "type": "company_overview",
+      "source": "wikidata_brandfetch",
+      "lines": [
+        "Official Website: http://www.tsys.com/",
+        "LinkedIn Page: https://linkedin.com/company/tsys",
+        "Foundation: 01/01/1983",
+        "Stock ID: -",
+        "Company Type: business",
+        "Employees: 10001",
+        "Location: United States"
+      ]
+    }
+  ]
 }
