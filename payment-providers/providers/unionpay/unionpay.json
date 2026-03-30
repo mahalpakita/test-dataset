@@ -3,7 +3,7 @@
     "en": "UnionPay"
   },
   "description": {
-    "en": "UnionPay (China UnionPay / UnionPay International) is a major global card network and payment brand enabling UnionPay card acceptance online and in person worldwide."
+    "en": "UnionPay is a Chinese financial services company and global card network operated by China UnionPay, enabling UnionPay-branded card payments and acceptance worldwide."
   },
   "key": "unionpay",
   "logo": "https://cdn.brandfetch.io/idmUZnnx1B/w/800/h/500/theme/dark/logo.png?c=1bxk8uotqjt9mrpg8g7yhlu088oPXbZzerr",
@@ -11,15 +11,15 @@
   "status_page_url": null,
   "risk_appetite": null,
   "integration_methods": [
-    "via_psp",
-    "via_acquirer",
-    "via_gateway"
+    "psp",
+    "acquirer",
+    "gateway"
   ],
   "status": "active",
   "features": [
     {
-      "title": "card network",
-      "description": "UnionPay provides card network capabilities for merchants."
+      "title": "card payments",
+      "description": "UnionPay provides card payments capabilities for merchants."
     },
     {
       "title": "in person payments",
@@ -28,10 +28,6 @@
     {
       "title": "ecommerce",
       "description": "UnionPay supports online payment flows for ecommerce merchants."
-    },
-    {
-      "title": "3d secure",
-      "description": "UnionPay provides 3d secure capabilities for merchants."
     },
     {
       "title": "refunds",
@@ -48,13 +44,17 @@
     {
       "title": "recurring",
       "description": "UnionPay provides recurring capabilities for merchants."
+    },
+    {
+      "title": "3d secure",
+      "description": "UnionPay provides 3d secure capabilities for merchants."
     }
   ],
   "url": "https://www.unionpayintl.com/",
   "products": [
     {
       "key": "unionpay-card-network",
-      "type": "card_network",
+      "type": "payment_method",
       "processor_types": [
         "card_network"
       ],
@@ -83,7 +83,7 @@
       "card": {
         "payment_method_subtype": "credit_debit",
         "network": {
-          "scope": "international",
+          "scope": "global",
           "network_name": "UnionPay",
           "uses_network": true
         },
@@ -92,14 +92,11 @@
           "debit",
           "prepaid"
         ],
-        "card_length": [
-          16,
-          19
-        ],
-        "luhn_validation_required": true,
+        "card_length": [],
+        "luhn_validation_required": null,
         "security_code": {
-          "label": "CVN2",
-          "length": 3
+          "label": null,
+          "length": null
         }
       },
       "processing_currencies": [
@@ -206,7 +203,7 @@
     "stock_id": null,
     "company_type": "business",
     "employees": "501",
-    "location": "Pudong, China"
+    "location": "China"
   },
   "developer_links": [
     {
@@ -238,41 +235,41 @@
       "url": "https://twitter.com/UnionPay_Intl"
     }
   ],
-  "tip": "If you see elevated UnionPay declines, verify your PSP is sending the correct card brand, 3DS data (when used), and clear billing/descriptor fields.",
+  "tip": "If UnionPay approvals are low, review decline reasons and try enabling 3D Secure and optimized routing with your acquirer/PSP.",
   "availability": {
     "availability_type": "global",
     "countries": []
   },
   "faq": [
     {
-      "question": "Is UnionPay a PSP or a card network?",
-      "answer": "UnionPay is a card network/brand. You typically accept it through a PSP, payment gateway, or acquiring bank that supports UnionPay."
+      "question": "Is UnionPay a payment processor or a card network?",
+      "answer": "UnionPay is primarily a card network/brand. To accept it online or in-store, you typically use a PSP and an acquiring bank that supports UnionPay."
     },
     {
-      "question": "Can I accept UnionPay online and in-store?",
-      "answer": "Yes—UnionPay can be supported for ecommerce and point-of-sale, depending on your PSP/acquirer and terminal/gateway configuration."
+      "question": "Where is UnionPay accepted?",
+      "answer": "UnionPay acceptance is available globally through participating acquirers and payment providers, with strong usage in China and cross-border travel corridors."
     },
     {
-      "question": "Why are some UnionPay transactions declined?",
-      "answer": "Common causes include issuer declines, missing or inconsistent transaction data, unsupported merchant setup for the card brand, or authentication requirements. Check issuer response codes and your integration data quality."
+      "question": "Can I accept UnionPay for ecommerce (online) payments?",
+      "answer": "Yes, if your PSP/acquirer supports UnionPay for online card payments. Availability and required fields depend on your provider’s integration."
     },
     {
-      "question": "Does UnionPay support 3D Secure?",
-      "answer": "It can be supported via your PSP/acquirer using 3D Secure (where available). Confirm your provider’s setup and supported 3DS version."
+      "question": "How can I improve UnionPay approval rates and reduce declines?",
+      "answer": "Use accurate card data, pass complete billing/device details where available, enable 3D Secure if supported, and work with your acquirer/PSP on routing and decline analysis."
     },
     {
-      "question": "How do disputes work for UnionPay?",
-      "answer": "Disputes are handled as chargebacks through your acquirer/PSP. Make sure your fulfillment, proof of delivery, and refund policies are well documented for representment."
+      "question": "Does UnionPay support refunds and partial refunds?",
+      "answer": "Refunds are generally supported, and partial refunds may be available depending on your PSP/acquirer and transaction type."
     },
     {
-      "question": "Where is UnionPay available?",
-      "answer": "UnionPay is a global card network with broad international acceptance. Availability for merchants depends on your PSP/acquirer’s supported regions and onboarding."
+      "question": "How are UnionPay disputes handled?",
+      "answer": "Disputes are handled through the chargeback process via your acquiring bank or PSP. Keep clear proof of delivery/service and respond within deadlines."
     }
   ],
   "seo": {
     "seo_title": "UnionPay payments: accept UnionPay cards",
-    "seo_description": "UnionPay is a global card network. Learn how to accept UnionPay cards online and in store, support 3DS, refunds, and handle chargebacks.",
-    "keywords": "UnionPay,China UnionPay,UnionPay International,card network,3D Secure,chargebacks,refunds,card payments"
+    "seo_description": "UnionPay is a global card network. Learn how to accept UnionPay cards online and in-store via supported PSPs and acquirers.",
+    "keywords": "UnionPay,China UnionPay,card network,UnionPay card payments,3D Secure,chargebacks,refunds,merchant acceptance"
   },
   "playbooks": []
 }
