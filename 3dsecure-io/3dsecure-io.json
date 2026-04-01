@@ -1,0 +1,198 @@
+{
+  "name": {
+    "en": "3dsecure.io"
+  },
+  "description": {
+    "en": "3dsecure.io provides an acquirer-agnostic 3-D Secure Merchant Plug-in (MPI) offered as a SaaS, designed to help merchants and PSPs run EMV 3-D Secure authentication flows with a simple API integration."
+  },
+  "key": "3dsecure-io",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [
+    "api"
+  ],
+  "status": "inactive",
+  "url": "https://www.3dsecure.io/",
+  "products": [
+    {
+      "key": null,
+      "type": "3ds_provider",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [
+        "EMV 3-D Secure"
+      ],
+      "fraud_prevention_methods": [
+        "3ds_authentication"
+      ],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "cards"
+      ],
+      "name": {
+        "en": "3-D Secure Merchant Plug-in (MPI)"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": "global",
+          "network_name": null,
+          "uses_network": "card_networks"
+        },
+        "type": [
+          "credit",
+          "debit"
+        ],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": [],
+      "channel": [
+        "online"
+      ],
+      "most_used_country": null
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Computers Electronics and Technology",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "3dsecure-io",
+  "excerpt": "Acquirer-agnostic 3-D Secure MPI (SaaS) to run EMV 3DS authentication via a simple API integration.",
+  "company_overview": {
+    "linkedin_page": null,
+    "stock_id": null,
+    "company_type": "private",
+    "employees": 2,
+    "location": null
+  },
+  "developer_links": [
+    {
+      "label": "3dsecure.io",
+      "url": "https://www.3dsecure.io/"
+    },
+    {
+      "label": "EMVCo 3-D Secure",
+      "url": "https://www.emvco.com/emv-technologies/3-d-secure"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Acquirer-agnostic 3DS routing",
+      "description": "Run 3-D Secure authentication without being locked to a single acquirer integration, using an MPI approach."
+    },
+    {
+      "title": "API-first integration",
+      "description": "Designed for server-to-server use so you can trigger 3DS authentication as part of your checkout and authorization flow."
+    },
+    {
+      "title": "Supports EMV 3-D Secure flows",
+      "description": "Implements modern 3DS authentication patterns (including challenge and frictionless outcomes, depending on issuer decisioning)."
+    },
+    {
+      "title": "Declines and approval-rate hygiene",
+      "description": "Use consistent 3DS data and correct transaction context to reduce avoidable issuer declines related to authentication mismatches."
+    },
+    {
+      "title": "Fraud and liability-shift workflows",
+      "description": "Helps you apply 3DS where appropriate to manage fraud exposure and support issuer authentication requirements."
+    },
+    {
+      "title": "Merchant and PSP use cases",
+      "description": "Suitable for merchants building their own payments stack and for PSPs offering 3DS as a capability to sub-merchants."
+    },
+    {
+      "title": "Operational reliability",
+      "description": "Centralizes 3DS handling in one service, simplifying monitoring and troubleshooting of authentication steps across acquirers."
+    },
+    {
+      "title": "Approval rate visibility",
+      "description": "Review 3dsecure.io approval rates and issuer decline patterns by market, card type, and currency before changing routing or retry rules."
+    }
+  ],
+  "tip": "If you see higher declines after enabling 3DS, double-check that the authentication outcome, transaction identifiers, and ECI/CAVV data are passed correctly into authorization.",
+  "availability": {
+    "availability_type": "global",
+    "countries": [],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is 3dsecure.io?",
+      "answer": "3dsecure.io is a 3-D Secure Merchant Plug-in (MPI) offered as a SaaS to help merchants and PSPs run EMV 3-D Secure authentication as part of card-not-present checkout flows."
+    },
+    {
+      "question": "Is 3dsecure.io a PSP or acquirer?",
+      "answer": "It is positioned as a 3DS provider/MPI rather than a payment service provider or acquiring bank; you typically use it alongside your existing PSP and acquirer setup."
+    },
+    {
+      "question": "Can 3DS affect approval rates or declines?",
+      "answer": "Yes. Incorrect or inconsistent 3DS data passed into authorization can lead to issuer declines; when implemented correctly, 3DS can also help meet issuer authentication expectations for certain transactions."
+    },
+    {
+      "question": "Which 3DS protocol does it support?",
+      "answer": "It is marketed for 3-D Secure (EMV 3-D Secure) authentication use cases; confirm the exact version and capabilities with the provider during integration."
+    },
+    {
+      "question": "How should merchants monitor 3dsecure.io performance?",
+      "answer": "Track challenge rates, frictionless rates, authentication failures, issuer declines, and downstream chargeback trends by issuer and market before changing your 3DS strategy."
+    }
+  ],
+  "seo": {
+    "seo_title": "3dsecure.io — 3-D Secure (EMV 3DS) MPI SaaS",
+    "seo_description": "3dsecure.io offers an acquirer-agnostic 3-D Secure Merchant Plug-in (MPI) as a SaaS to integrate EMV 3DS authentication into online card payments.",
+    "keywords": "3-D Secure, EMV 3DS, MPI, merchant plug-in, 3DS authentication, card-not-present, fraud prevention"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": "3-D-Secure",
+    "stack_overflow_tag": "https://stackoverflow.com/tags/3d-secure",
+    "reddit_subreddit": null,
+    "founded_date": "2015"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

@@ -1,0 +1,195 @@
+{
+  "name": {
+    "en": "American Express"
+  },
+  "description": {
+    "en": "American Express (Amex) is a multinational financial services company that operates a global card network and issues charge and credit cards for consumers and businesses."
+  },
+  "key": "american-express",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.americanexpress.com/",
+  "products": [
+    {
+      "key": null,
+      "type": "card_scheme",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "cards"
+      ],
+      "name": {
+        "en": "American Express cards"
+      },
+      "processor_payment_methods": [
+        "american_express"
+      ],
+      "card": {
+        "payment_method_subtype": "credit",
+        "network": {
+          "scope": "global",
+          "network_name": "American Express",
+          "uses_network": "amex"
+        },
+        "type": [
+          "credit",
+          "charge"
+        ],
+        "card_length": [
+          15
+        ],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": "CID",
+          "length": 4
+        }
+      },
+      "processing_currencies": [],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": [],
+      "channel": [],
+      "most_used_country": "US"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "also_known_as",
+      "value": "American Express Company, American Express Co, American Express Bank, AmEx, americanexpress.com, AEXP, American Express Corporation, AXP",
+      "source": "wikidata"
+    },
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "american-express",
+  "excerpt": "Global card network and issuer known for premium consumer and business charge/credit cards.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/american-express",
+    "stock_id": "0R3C.L",
+    "company_type": "public company",
+    "employees": 62800,
+    "location": "US"
+  },
+  "developer_links": [
+    {
+      "label": "American Express",
+      "url": "https://www.americanexpress.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/American_Express"
+    },
+    {
+      "label": "Amex subreddit",
+      "url": "https://www.reddit.com/r/amex"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Security code handling (CID)",
+      "description": "American Express uses a 4-digit Card Identification (CID). Capture and pass it when available to support risk checks and reduce fraud-related declines."
+    },
+    {
+      "title": "Commerce channels",
+      "description": "Typically used for ecommerce and in-person card payments wherever American Express is enabled by your PSP/acquirer."
+    },
+    {
+      "title": "Authorization outcomes & declines",
+      "description": "Monitor authorization response codes and soft declines; validate amount, currency, and merchant information to reduce avoidable declines and improve approval rates."
+    },
+    {
+      "title": "Disputes and chargebacks",
+      "description": "Disputes are handled through your payment processor/acquirer if you are not directly contracted; keep clear descriptors and evidence to respond effectively."
+    },
+    {
+      "title": "Data quality & reconciliation",
+      "description": "Use consistent merchant descriptors, order IDs, and customer contact details to improve customer recognition, support dispute handling, and simplify reconciliation."
+    },
+    {
+      "title": "Customer profile fit",
+      "description": "Often associated with premium and business spend; offering Amex can help meet customer preference in segments where it is commonly used."
+    },
+    {
+      "title": "Reliability checks",
+      "description": "Track decline spikes, issuer response patterns, and processor availability to isolate American Express performance issues faster."
+    }
+  ],
+  "tip": "If you see elevated Amex declines, review response codes with your PSP or acquirer and make sure you are sending complete transaction and shopper data.",
+  "availability": {
+    "availability_type": "global",
+    "countries": [],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "Is American Express a payment gateway or a card network?",
+      "answer": "American Express is both a card issuer and a card network. Most merchants enable Amex acceptance through their PSP/acquirer rather than integrating directly with Amex."
+    },
+    {
+      "question": "Why are some American Express transactions declined?",
+      "answer": "Declines can be issuer- or network-driven (e.g., insufficient funds/limit, invalid data, suspected fraud, or formatting issues). Use your PSP logs and response codes to identify the cause and target fixes to improve approval rates."
+    },
+    {
+      "question": "What card details are specific to American Express?",
+      "answer": "Amex card numbers are typically 15 digits and the security code is a 4-digit CID. Ensure your checkout and processor fields support these formats."
+    },
+    {
+      "question": "How should merchants monitor American Express disputes?",
+      "answer": "Track American Express disputes and chargebacks by reason code, issuer behavior, geography, and order type before changing routing or retry rules."
+    }
+  ],
+  "seo": {
+    "seo_title": "American Express (Amex) | Payment method overview",
+    "seo_description": "American Express (Amex) is a global card network and issuer. Learn how Amex acceptance works, common decline drivers, and operational tips for merchants.",
+    "keywords": "American Express, Amex, card payments, charge card, credit card, merchant acceptance, declines, chargebacks"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": "American-Express-company-1",
+    "stack_overflow_tag": null,
+    "reddit_subreddit": "amex",
+    "founded_date": null
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

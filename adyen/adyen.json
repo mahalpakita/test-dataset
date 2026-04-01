@@ -1,0 +1,439 @@
+{
+  "name": {
+    "en": "Adyen"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Adyen",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " is a leading global ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "payment service provider (PSP)",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " and ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "acquirer",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ", headquartered in the Netherlands. The company offers a ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "unified commerce platform",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " that allows merchants to accept payments online, on mobile, and in-store through a single integration.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "textStyle": "",
+            "textFormat": 0
+          },
+          {
+            "type": "paragraph",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Adyen supports a vast range of ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "credit and debit cards, digital wallets, and local payment methods",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " across more than ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "200 countries and territories",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ". Its direct acquiring licenses with major card networks like ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "Visa, Mastercard, and American Express",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " help businesses streamline payment processing and settlement worldwide.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "textStyle": "",
+            "textFormat": 0
+          },
+          {
+            "type": "paragraph",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "The platform also includes advanced ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "fraud prevention, risk management, recurring billing, and reporting tools",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ", designed for enterprises that require scalability and reliability. Adyen powers payments for some of the world’s largest brands in ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "eCommerce, retail, travel, SaaS, and marketplaces",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ".",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "textStyle": "",
+            "textFormat": 0
+          },
+          {
+            "type": "paragraph",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "By combining global reach with local expertise, Adyen enables merchants to optimize checkout experiences, expand internationally, and manage all payments in one place.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "textStyle": "",
+            "textFormat": 0
+          }
+        ],
+        "direction": "ltr",
+        "textFormat": 1
+      }
+    }
+  },
+  "key": "adyen",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.adyen.com/",
+  "products": [
+    {
+      "key": null,
+      "type": "processor",
+      "processor_types": [
+        "acquirer",
+        "psp"
+      ],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [],
+      "name": {
+        "en": "Adyen payments processing"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": [],
+      "channel": [],
+      "most_used_country": "NL"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "also_known_as",
+      "value": "Adyen N.V.",
+      "source": "wikidata"
+    },
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "adyen",
+  "excerpt": "Global payments technology platform for unified commerce (online, in-app, and in-store) with PSP and acquiring capabilities.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/adyen",
+    "stock_id": "0YP5.L",
+    "company_type": "business",
+    "employees": 1001,
+    "location": null
+  },
+  "developer_links": [
+    {
+      "label": "Adyen",
+      "url": "https://www.adyen.com/"
+    },
+    {
+      "label": "Adyen docs",
+      "url": "https://docs.adyen.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Adyen"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Unified commerce payments",
+      "description": "Accept payments across online, in-app, and in-store channels with a single platform approach for reporting and operations."
+    },
+    {
+      "title": "Global payment method coverage",
+      "description": "Supports cards, digital wallets, and a wide range of local payment methods to help merchants sell internationally."
+    },
+    {
+      "title": "Authorization optimization for higher approval rates",
+      "description": "Use payment data and routing/processing options to reduce avoidable card declines and improve authorization success where possible."
+    },
+    {
+      "title": "Authentication and security controls",
+      "description": "Supports security and authentication flows (for example, 3D Secure where applicable) to help balance conversion and risk."
+    },
+    {
+      "title": "Disputes and refunds workflows",
+      "description": "Tools to help manage post-payment operations such as refunds and dispute handling, alongside payment visibility and reporting."
+    },
+    {
+      "title": "Enterprise reliability and scalability",
+      "description": "Designed for high-volume merchants that need consistent performance across regions and channels."
+    }
+  ],
+  "tip": "Track declines by reason and issuer country, then adjust your request data, routing, and retry logic based on the specific causes you see in your logs.",
+  "availability": {
+    "availability_type": "global",
+    "countries": [],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "Is Adyen a PSP or an acquirer?",
+      "answer": "Adyen is a payment service provider (PSP) and also offers acquiring in various markets, depending on the region and setup."
+    },
+    {
+      "question": "What channels can I use Adyen for?",
+      "answer": "Adyen is commonly used for online payments, in-app/mobile payments, and in-store payments as part of a unified commerce setup."
+    },
+    {
+      "question": "Which payment methods does Adyen support?",
+      "answer": "Adyen supports card payments, digital wallets, and many local payment methods. Specific availability depends on your account, country, and integration choices."
+    },
+    {
+      "question": "How can I reduce card declines and improve approval rates with Adyen?",
+      "answer": "Review authorization and refusal reasons, validate the quality of the data you send (billing/shipping, shopper identifiers), and apply authentication (such as 3D Secure) where appropriate for your region and risk profile."
+    },
+    {
+      "question": "Does Adyen support international expansion?",
+      "answer": "Adyen is a global platform and is commonly used for cross-border commerce, but supported countries, payment methods, and settlement options depend on your merchant entity and configuration."
+    },
+    {
+      "question": "How are chargebacks and disputes handled?",
+      "answer": "Disputes are typically managed through Adyen’s customer area and/or API workflows, where you can review dispute details and submit responses according to scheme rules."
+    }
+  ],
+  "seo": {
+    "seo_title": "Adyen payment provider",
+    "seo_description": "Adyen is a global payments technology platform offering PSP and acquiring capabilities for online, in-app, and in-store payments.",
+    "keywords": "Adyen, payments, PSP, acquirer, payment processing, unified commerce"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [
+      "0YP5.L"
+    ],
+    "quora_topic_id": "Adyen",
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": "2006"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

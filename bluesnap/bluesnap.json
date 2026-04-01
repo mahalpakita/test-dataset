@@ -1,0 +1,183 @@
+{
+  "name": {
+    "en": "Bluesnap"
+  },
+  "description": {
+    "en": "BlueSnap is a global payments provider offering a modular payment orchestration platform for online and embedded payments, helping merchants accept and optimize payments across regions and payment types."
+  },
+  "key": "bluesnap",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.bluesnap.com/",
+  "products": [
+    {
+      "key": null,
+      "type": "processor",
+      "processor_types": [
+        "acquirer"
+      ],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [],
+      "name": {
+        "en": null
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": [],
+      "channel": [],
+      "most_used_country": null
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "bluesnap",
+  "excerpt": "Global payments platform for eCommerce and embedded payments with modular orchestration capabilities.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/bluesnap",
+    "stock_id": null,
+    "company_type": null,
+    "employees": 201,
+    "location": null
+  },
+  "developer_links": [
+    {
+      "label": "BlueSnap",
+      "url": "https://www.bluesnap.com/"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Payment method and currency coverage",
+      "description": "Designed to help merchants sell internationally by supporting multiple payment types and currencies through one integration."
+    },
+    {
+      "title": "Authorization performance insights",
+      "description": "Use reporting and optimization levers to diagnose card declines and improve authorization success over time."
+    },
+    {
+      "title": "Fraud and risk tooling",
+      "description": "Built-in fraud-prevention and risk controls can help reduce unwanted transactions while maintaining customer conversion."
+    },
+    {
+      "title": "Disputes and chargeback workflows",
+      "description": "Tools and operational support to help merchants manage disputes and chargebacks more efficiently."
+    },
+    {
+      "title": "Embedded payments for platforms",
+      "description": "Capabilities aimed at SaaS and marketplaces that want to embed and control payments within their product experience."
+    },
+    {
+      "title": "Billing and invoicing support",
+      "description": "Options for invoicing and billing flows to streamline accounts receivable and get paid faster."
+    }
+  ],
+  "tip": "If you see elevated card declines, segment by country, issuer, and payment method first, then adjust routing, fraud settings, or retry logic based on the pattern.",
+  "availability": {
+    "availability_type": "global",
+    "countries": [],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is BlueSnap?",
+      "answer": "BlueSnap is a global payment platform that offers gateway, processing, and merchant services for online businesses."
+    },
+    {
+      "question": "Where is BlueSnap available?",
+      "answer": "BlueSnap positions its offering for global eCommerce. Exact merchant eligibility and supported countries can vary by product and underwriting, so validate availability for your business location and target markets with BlueSnap."
+    },
+    {
+      "question": "How can I reduce card declines using BlueSnap?",
+      "answer": "Start by analyzing declines by issuer country, card type, and transaction type, then test changes such as routing/optimization options, adjusting retry logic for soft declines, and ensuring billing descriptors and customer data are consistent."
+    },
+    {
+      "question": "Does BlueSnap support alternative payment methods and local payment options?",
+      "answer": "BlueSnap markets support for multiple payment types beyond cards. The specific payment methods available depend on your region and integration, so confirm the methods you need during implementation planning."
+    },
+    {
+      "question": "How are chargebacks and disputes handled?",
+      "answer": "Dispute handling typically involves responding to card network/issuer requests with required evidence and meeting deadlines. Ask BlueSnap what tooling, notifications, and workflows are available for evidence submission and tracking."
+    },
+    {
+      "question": "Can I use BlueSnap for embedded payments in a SaaS or platform product?",
+      "answer": "BlueSnap promotes embedded payments solutions intended for software platforms. Review requirements for onboarding, compliance, payout flows, and user experience before committing to an architecture."
+    },
+    {
+      "question": "What is BlueSnap?",
+      "answer": "BlueSnap is a global payment platform that offers gateway, processing, and merchant services for online businesses."
+    }
+  ],
+  "seo": {
+    "seo_title": "BlueSnap payments provider",
+    "seo_description": "BlueSnap is a global payments provider offering a modular payment orchestration platform for eCommerce and embedded payments.",
+    "keywords": "bluesnap, bluesnap payments, payment orchestration, global payments, embedded payments"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": "2001"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

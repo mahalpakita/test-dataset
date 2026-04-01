@@ -1,0 +1,174 @@
+{
+  "name": {
+    "en": "Barclaycard"
+  },
+  "description": {
+    "en": "Barclaycard is a Barclays brand for card payments, including credit cards and merchant payment acceptance services."
+  },
+  "key": "barclaycard",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "http://www.barclaycard.com/",
+  "products": [
+    {
+      "key": null,
+      "type": "processor",
+      "processor_types": [
+        "acquirer"
+      ],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [],
+      "name": {
+        "en": "Barclaycard merchant acquiring"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": [],
+      "channel": [],
+      "most_used_country": "GB"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "also_known_as",
+      "value": "Barclay Card",
+      "source": "wikidata"
+    },
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "barclaycard",
+  "excerpt": "Barclaycard is the Barclays brand for credit cards and card payment acceptance, serving consumers and merchants primarily in the UK.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/barclaycardpayments",
+    "stock_id": null,
+    "company_type": "brand",
+    "employees": 10001,
+    "location": "GB"
+  },
+  "developer_links": [
+    {
+      "label": "Barclaycard",
+      "url": "http://www.barclaycard.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Barclaycard"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "UK-focused card acceptance (merchant acquiring)",
+      "description": "Used by merchants to accept card payments, with Barclaycard acting as the acquirer for card transactions."
+    },
+    {
+      "title": "Works with your PSP or gateway",
+      "description": "Typically connects through a payment gateway/PSP you choose, while Barclaycard provides acquiring and settlement."
+    },
+    {
+      "title": "Authorization performance and declines",
+      "description": "Monitor issuer response codes and retry logic carefully; reducing avoidable declines can improve authorization success over time."
+    },
+    {
+      "title": "Disputes and chargeback operations",
+      "description": "Set up clear evidence collection and timelines so you can respond quickly to retrieval requests and chargebacks."
+    },
+    {
+      "title": "Authentication and 3DS routing",
+      "description": "Where supported by your integration, route customers through authentication flows appropriate to your risk and region."
+    },
+    {
+      "title": "Reporting and reconciliation",
+      "description": "Align order IDs, descriptor strategy, and payout references so finance teams can reconcile settlements with transactions."
+    }
+  ],
+  "tip": "To reduce card declines, send complete billing details and make sure your gateway passes consistent shopper, AVS, and security-code data to the processor.",
+  "availability": {
+    "availability_type": "country-specific",
+    "countries": [
+      "GB"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "Is Barclaycard a payment gateway or an acquirer?",
+      "answer": "Barclaycard is generally an acquirer/merchant services provider; many merchants still use a separate payment gateway/PSP for the technical integration."
+    },
+    {
+      "question": "Where is Barclaycard merchant acquiring available?",
+      "answer": "Barclaycard is UK-based and commonly used by UK merchants; exact availability depends on the specific Barclaycard product and contracting entity."
+    }
+  ],
+  "seo": {
+    "seo_title": "Barclaycard | Merchant Acquiring and Card Payments",
+    "seo_description": "Profile of Barclaycard, the Barclays brand for card payments and merchant acquiring, including integrations, availability, and operational considerations.",
+    "keywords": "Barclaycard, Barclays, merchant acquiring, card payments, credit cards, UK acquirer"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": "Barclaycard",
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": "1968"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

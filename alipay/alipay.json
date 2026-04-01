@@ -1,0 +1,324 @@
+{
+  "name": {
+    "en": "AliPay"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Alipay is the most widely used third-party online/mobile payment service provider in China. With over 100 million daily transactions and over 800 million monthly active users. Its primary product is a digital wallet, Alipay Wallet, which also includes a mobile app that allows customers to conduct transactions directly from their mobile devices.\n\nAlipay is a must-have payment method for any business looking to reach a critical mass of Chinese shoppers both home and abroad. It's available in 70 markets and has already been adopted by over 3 million merchants worldwide.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "alipay",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.adyen.com/payment-methods/alipay",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "digital_wallets"
+      ],
+      "name": {
+        "en": "Alipay+"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [
+        "USD",
+        "EUR",
+        "GBP",
+        "JPY",
+        "AUD",
+        "SGD",
+        "CHF",
+        "SEK",
+        "NOK",
+        "NZD",
+        "THB",
+        "HKD",
+        "CAD"
+      ],
+      "settlement_currencies": [
+        "USD",
+        "EUR",
+        "JPY",
+        "GBP",
+        "CAD",
+        "SGD",
+        "CHF",
+        "SEK",
+        "DKK",
+        "NOK",
+        "NZD",
+        "THB",
+        "HKD",
+        "AUD"
+      ],
+      "languages": [],
+      "merchant_eligibility_countries": [
+        "AT",
+        "AU",
+        "BE",
+        "CA",
+        "CN",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HK",
+        "HU",
+        "IS",
+        "IE",
+        "IT",
+        "JP",
+        "LV",
+        "LI",
+        "LT",
+        "LU",
+        "MY",
+        "MT",
+        "NL",
+        "NZ",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SG",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "CH",
+        "TH",
+        "AE",
+        "GB",
+        "US"
+      ],
+      "shopper_availability_countries": [],
+      "channel": [
+        "online",
+        "in_person"
+      ],
+      "most_used_country": "CN"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "alipay",
+  "excerpt": "Digital wallet acceptance for Alipay via Adyen, supporting online and in-person payments where available.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/adyen",
+    "stock_id": "0YP5.L",
+    "company_type": "public",
+    "employees": 1001,
+    "location": "CN"
+  },
+  "developer_links": [
+    {
+      "label": "Adyen payment method page",
+      "url": "https://www.adyen.com/payment-methods/alipay"
+    },
+    {
+      "label": "Adyen Alipay+ page",
+      "url": "https://www.adyen.com/payment-methods/alipay-plus"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Mobile-friendly wallet checkout",
+      "description": "Designed for wallet-based payment flows that are commonly used on mobile devices and in-app browsers."
+    },
+    {
+      "title": "Authorization success and declines",
+      "description": "Use complete order/customer data and ensure amounts and currency are correct to help reduce avoidable authorization declines."
+    },
+    {
+      "title": "Refund support",
+      "description": "Operationally supports refunds (including partial refunds) according to Adyen’s payment method capability for Alipay."
+    },
+    {
+      "title": "Disputes and chargebacks",
+      "description": "Chargebacks can occur; align customer communication and fulfillment evidence to respond efficiently when disputes are raised."
+    },
+    {
+      "title": "Coverage and currencies",
+      "description": "Supports multiple processing and settlement currencies as provided by Adyen for this payment method."
+    },
+    {
+      "title": "Security and authentication",
+      "description": "Wallet payments rely on issuer/wallet authentication mechanisms; implement the recommended flow in your Adyen integration for best results."
+    },
+    {
+      "title": "Online acceptance",
+      "description": "AliPay supports ecommerce and other online payment flows."
+    },
+    {
+      "title": "In-person acceptance",
+      "description": "AliPay supports in-person checkout and POS acceptance."
+    }
+  ],
+  "tip": "If you see higher declines, double-check currency support and send complete shopper, billing, shipping, and order details before retrying the payment.",
+  "availability": {
+    "availability_type": "regional",
+    "countries": [
+      "Austria",
+      "Australia",
+      "Belgium",
+      "Canada",
+      "China",
+      "Cyprus",
+      "Czech Republic",
+      "Denmark",
+      "Estonia",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Hong Kong SAR",
+      "Hungary",
+      "Iceland",
+      "Ireland",
+      "Italy",
+      "Japan",
+      "Latvia",
+      "Liechtenstein",
+      "Lithuania",
+      "Luxembourg",
+      "Malaysia",
+      "Malta",
+      "Netherlands",
+      "New Zealand",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Singapore",
+      "Slovakia",
+      "Slovenia",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Thailand",
+      "United Arab Emirates",
+      "United Kingdom",
+      "United States"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "Is this provider Alipay itself or Adyen?",
+      "answer": "This entry describes Alipay+ availability and details as offered via Adyen’s payment method integration; Adyen is the PSP providing access to the method."
+    },
+    {
+      "question": "Can I accept Alipay+ online and in-store?",
+      "answer": "Adyen indicates support for both online and in-person channels, subject to your integration and regional availability."
+    },
+    {
+      "question": "What currencies can I process and settle in?",
+      "answer": "Adyen lists supported processing and settlement currencies for this payment method; confirm the exact set in your Adyen account and documentation for your region."
+    },
+    {
+      "question": "Why are some payments declined?",
+      "answer": "Declines can be caused by unsupported currency/amount rules, missing required shopper/order data, or wallet-side risk checks; validate your request fields and currency configuration."
+    },
+    {
+      "question": "How do refunds work for Alipay+?",
+      "answer": "Refunds (including partial refunds) are supported per Adyen’s capabilities for this payment method; refund timing and user experience can vary by wallet flow."
+    },
+    {
+      "question": "Are chargebacks possible with Alipay+?",
+      "answer": "Yes—Adyen indicates chargebacks are supported; ensure you retain fulfillment and customer communication evidence to respond to disputes."
+    }
+  ],
+  "seo": {
+    "seo_title": "Alipay+ (via Adyen)",
+    "seo_description": "Provider profile for Alipay+ via Adyen, including channels, currencies, availability, and operational considerations.",
+    "keywords": "Alipay+, Alipay, Adyen, digital wallet, ecommerce payments, POS payments"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [
+      "0YP5.L"
+    ],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": "2006"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

@@ -1,0 +1,211 @@
+{
+  "name": {
+    "en": "ACH Direct Debit"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "With ACH Direct Debit, merchants are responsible for collecting customer authorization in which the bank account holder consents to the merchant debiting their account. The authorization can be digital or analog and must specify account and routing number, amount (which can be variable), date, frequency, and instructions for revoking the authorization.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "ach-direct-debit",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.adyen.com/payment-methods/ach-direct-debit",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "direct_debit"
+      ],
+      "name": {
+        "en": "ACH Direct Debit"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [
+        "USD",
+        "ACH"
+      ],
+      "settlement_currencies": [
+        "USD"
+      ],
+      "languages": [],
+      "merchant_eligibility_countries": [
+        "US"
+      ],
+      "shopper_availability_countries": [],
+      "channel": [
+        "online"
+      ],
+      "most_used_country": "US"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "ach-direct-debit",
+  "excerpt": "US bank-to-bank debit using the ACH network, where the merchant collects and stores the customer authorization to debit their account.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/adyen",
+    "stock_id": "0YP5.L",
+    "company_type": "public",
+    "employees": 1001,
+    "location": "US"
+  },
+  "developer_links": [
+    {
+      "label": "Adyen payment method page",
+      "url": "https://www.adyen.com/payment-methods/ach-direct-debit"
+    },
+    {
+      "label": "Adyen developer docs",
+      "url": "https://docs.adyen.com/"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Online channel alignment",
+      "description": "Designed for online acceptance flows; ensure your checkout collects required bank details and consent in a compliant manner."
+    },
+    {
+      "title": "Merchant-collected authorization",
+      "description": "You must capture and retain the customer’s debit authorization, including routing/account details and the payment schedule or amount rules."
+    },
+    {
+      "title": "Improving authorization success",
+      "description": "Reduce avoidable failures by validating routing/account formats and ensuring mandate details match the debit you submit (amount, timing, frequency)."
+    },
+    {
+      "title": "Recurring billing support",
+      "description": "Use ACH Direct Debit for subscriptions and repeat payments when you have an appropriate authorization covering future debits."
+    },
+    {
+      "title": "Refunds and adjustments",
+      "description": "Support refunds and partial refunds where your PSP setup allows, with clear customer communications on timelines and references."
+    },
+    {
+      "title": "Disputes and returns handling",
+      "description": "Plan operational workflows for ACH returns and disputes, including evidence collection tied to the original authorization."
+    },
+    {
+      "title": "Multi-currency settlement",
+      "description": "ACH Direct Debit supports settlement across multiple currencies depending on partner or acquirer setup."
+    }
+  ],
+  "tip": "If you see elevated ACH failures, review your authorization data quality, including routing and account format, account-holder name match, and debit mandate setup.",
+  "availability": {
+    "availability_type": "country-specific",
+    "countries": [
+      "US"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is ACH Direct Debit?",
+      "answer": "ACH Direct Debit is a US bank debit payment method that lets merchants pull funds from a shopper's bank account through the ACH network."
+    },
+    {
+      "question": "Do I need customer authorization (a mandate) to use ACH Direct Debit?",
+      "answer": "Yes. The merchant must collect an authorization from the account holder allowing debits, and retain the details needed to demonstrate consent."
+    },
+    {
+      "question": "Is ACH Direct Debit available outside the United States?",
+      "answer": "ACH is a US payment network; availability is generally US-only for this payment method."
+    },
+    {
+      "question": "What is ${providerName}?",
+      "answer": "${providerName} is a payment network or payment method used by merchants to accept customer payments."
+    },
+    {
+      "question": "Does ACH Direct Debit support multiple currencies?",
+      "answer": "ACH Direct Debit is primarily a US bank-payment method and is commonly used for USD-denominated payments and settlement flows."
+    }
+  ],
+  "seo": {
+    "seo_title": "ACH Direct Debit (Adyen)",
+    "seo_description": "Accept ACH Direct Debit with Adyen: US bank-to-bank debit payments where merchants collect customer authorization for debiting a bank account.",
+    "keywords": "ACH Direct Debit, ACH, US bank debit, direct debit, Adyen payment method"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [
+      "0YP5.L"
+    ],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": "2006"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

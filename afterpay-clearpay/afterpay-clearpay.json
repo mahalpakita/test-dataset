@@ -1,0 +1,235 @@
+{
+  "name": {
+    "en": "Afterpay & Clearpay"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Afterpay is a buy now, pay later payment method offering shoppers the option to pay in four interest-free installments. Originally from Australia, Afterpay is now also available in New Zealand, the US, and Canada, as well as the UK where they operate under the brand Clearpay.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "afterpay-clearpay",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.adyen.com/payment-methods/clearpay-afterpay",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "bnpl"
+      ],
+      "name": {
+        "en": "Afterpay & Clearpay"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [
+        "GBP"
+      ],
+      "settlement_currencies": [
+        "GBP"
+      ],
+      "languages": [],
+      "merchant_eligibility_countries": [
+        "AU",
+        "NZ",
+        "US",
+        "CA",
+        "GB"
+      ],
+      "shopper_availability_countries": [
+        "AU",
+        "NZ",
+        "US",
+        "CA",
+        "GB"
+      ],
+      "channel": [
+        "online"
+      ],
+      "most_used_country": "AU"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "also_known_as",
+      "value": "Afterpay Touch Group, Afterpay Limited, AFTERPAY LIMITED",
+      "source": "wikidata"
+    },
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "afterpay-clearpay",
+  "excerpt": "BNPL that lets shoppers split purchases into four interest-free installments; called Clearpay in the UK.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/adyen",
+    "stock_id": "0YP5.L",
+    "company_type": "business",
+    "employees": "1001",
+    "location": null
+  },
+  "developer_links": [
+    {
+      "label": "Afterpay website",
+      "url": "https://www.afterpay.com/"
+    },
+    {
+      "label": "Clearpay website",
+      "url": "https://www.clearpay.co.uk/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Afterpay"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Buy now, pay later in 4 installments",
+      "description": "Offer shoppers the option to pay over four interest-free installments at checkout."
+    },
+    {
+      "title": "Regional branding (Afterpay vs Clearpay)",
+      "description": "Use Afterpay in AU/NZ/US/CA and Clearpay in the UK to match local shopper expectations."
+    },
+    {
+      "title": "Online checkout flow with redirect",
+      "description": "Typically completed via an online checkout flow where the shopper is redirected to complete the payment and then returned."
+    },
+    {
+      "title": "Coverage across key markets",
+      "description": "Supports Australia, New Zealand, the United States, Canada, and the United Kingdom (Clearpay)."
+    },
+    {
+      "title": "Authorization success depends on data quality",
+      "description": "Approval rates can be sensitive to checkout data accuracy (name, address, email, phone) and order details."
+    },
+    {
+      "title": "Refund support",
+      "description": "Supports refunds (including partial refunds where enabled by your PSP/integration)."
+    },
+    {
+      "title": "Disputes and chargebacks may apply",
+      "description": "As with other consumer payment methods, disputes/chargebacks can occur and should be handled via your PSP’s dispute workflow."
+    },
+    {
+      "title": "Multi-currency settlement",
+      "description": "Afterpay & Clearpay supports settlement across multiple currencies depending on partner or acquirer setup."
+    }
+  ],
+  "tip": "If you see lower approval rates, review the shopper identity and address fields you send at checkout, especially email, phone, billing, and shipping details.",
+  "availability": {
+    "availability_type": "regional",
+    "countries": [
+      "Australia",
+      "New Zealand",
+      "United States",
+      "Canada",
+      "United Kingdom"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is the difference between Afterpay and Clearpay?",
+      "answer": "They are the same BNPL product under different brands: Afterpay in AU/NZ/US/CA and Clearpay in the UK."
+    },
+    {
+      "question": "Where is Afterpay/Clearpay available?",
+      "answer": "Common availability includes Australia, New Zealand, the United States, Canada, and the United Kingdom (as Clearpay). Availability can vary by PSP and merchant setup."
+    },
+    {
+      "question": "Why are some Afterpay/Clearpay payments declined?",
+      "answer": "Declines can happen due to shopper eligibility checks and inconsistent or missing checkout data (such as email, phone, or address details). Improving data completeness often helps authorization success."
+    },
+    {
+      "question": "Is Afterpay/Clearpay a PSP or an acquirer?",
+      "answer": "Afterpay/Clearpay is a payment method/BNPL provider. Merchants typically connect through a PSP (for example, via an integrated payment platform) rather than integrating it as a card acquirer."
+    },
+    {
+      "question": "Does Afterpay or Clearpay support multiple currencies?",
+      "answer": "Shopper-facing currency support depends on market and PSP setup, while settlement currency options can vary by region and integration partner."
+    }
+  ],
+  "seo": {
+    "seo_title": "Afterpay & Clearpay (BNPL) | Payment method",
+    "seo_description": "Afterpay (Clearpay in the UK) is a BNPL payment method that lets shoppers pay in four interest-free installments. Available in AU, NZ, US, CA and UK.",
+    "keywords": "Afterpay, Clearpay, BNPL, buy now pay later, installments"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": "2014"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

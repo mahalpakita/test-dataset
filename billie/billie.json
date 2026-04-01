@@ -1,0 +1,237 @@
+{
+  "name": {
+    "en": "Billie"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Billie is a Berlin based BNPL provider, specialized in providing open invoice and deferred payment options in the B2B space. Adyen customers now have the possibility to add Billie as a BNPL payment method to their checkout, making online payments effortless for B2B buyers via e-commerce and m-commerce channels.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "billie",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.adyen.com/payment-methods/billie",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "bnpl"
+      ],
+      "name": {
+        "en": null
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [
+        "EUR",
+        "GBP",
+        "NOK",
+        "SEK",
+        "CHF"
+      ],
+      "settlement_currencies": [
+        "EUR",
+        "GBP",
+        "NOK",
+        "SEK",
+        "CHF"
+      ],
+      "languages": [],
+      "merchant_eligibility_countries": [
+        "DE",
+        "AT",
+        "NL",
+        "GB",
+        "ES",
+        "FI",
+        "DK",
+        "CH",
+        "IT",
+        "NO",
+        "FR",
+        "SE"
+      ],
+      "shopper_availability_countries": [],
+      "channel": [
+        "online"
+      ],
+      "most_used_country": null
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "billie",
+  "excerpt": "B2B BNPL provider offering open invoice and deferred payment at checkout via Adyen.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/adyen",
+    "stock_id": "0YP5.L",
+    "company_type": null,
+    "employees": "1001",
+    "location": null
+  },
+  "developer_links": [
+    {
+      "label": "Adyen payment method page",
+      "url": "https://www.adyen.com/payment-methods/billie"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "B2B invoice and deferred payment",
+      "description": "Offer invoice-based and deferred payment options designed for B2B checkout flows where buyers prefer paying after delivery."
+    },
+    {
+      "title": "Online checkout support",
+      "description": "Available for online payments through Adyen, fitting typical e-commerce and mobile commerce purchase journeys."
+    },
+    {
+      "title": "Local coverage via Adyen configuration",
+      "description": "Enable the method for supported markets and currencies as configured in your Adyen account."
+    },
+    {
+      "title": "Authorization outcomes and declines",
+      "description": "Treat Billie authorizations like any other payment method: monitor decline reasons and iterate on checkout and buyer details to improve authorization success."
+    },
+    {
+      "title": "Refund and partial refund capability (via Adyen)",
+      "description": "Supports refunds and partial refunds when managed through your PSP configuration, helping handle returns and order adjustments."
+    },
+    {
+      "title": "Disputes and chargebacks handling",
+      "description": "Chargebacks can occur; set internal workflows to respond quickly with supporting order and delivery documentation."
+    },
+    {
+      "title": "Recurring payments support (use-case dependent)",
+      "description": "Recurring may be supported through the PSP setup; validate your intended billing model and terms before enabling for subscriptions."
+    },
+    {
+      "title": "Multi-currency settlement",
+      "description": "Billie supports settlement across multiple currencies depending on partner or acquirer setup."
+    }
+  ],
+  "tip": "If you see Billie declines, review whether you are sending complete company and buyer details, including legal name, address, and checkout identity information.",
+  "availability": {
+    "availability_type": null,
+    "countries": [],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is Billie?",
+      "answer": "Billie is a B2B buy now, pay later payment provider focused on invoice and deferred-payment flows for business buyers."
+    },
+    {
+      "question": "How do I add Billie to my checkout?",
+      "answer": "Billie is available as a payment method through Adyen; enable it in your Adyen account and follow your existing Adyen checkout integration."
+    },
+    {
+      "question": "Where is Billie available?",
+      "answer": "Availability depends on the markets enabled for your Adyen account configuration; check the Adyen payment method page and your contract settings for the latest coverage."
+    },
+    {
+      "question": "Why are some Billie payments declined and how can I improve approval rates?",
+      "answer": "Declines can be driven by buyer eligibility and the quality/consistency of submitted buyer and company details. Ensure required fields are present and consistent (company name, address, identifiers) and monitor decline reasons in your PSP reporting."
+    },
+    {
+      "question": "Is Billie a card payment method that uses 3D Secure?",
+      "answer": "No. Billie is a BNPL/invoice-type payment method and does not use card 3D Secure flows."
+    },
+    {
+      "question": "Who handles refunds, disputes, and chargebacks?",
+      "answer": "Operational handling is typically managed through your PSP setup. Use Adyen’s tools and reporting to process refunds and respond to disputes/chargebacks with supporting evidence."
+    },
+    {
+      "question": "What is Billie?",
+      "answer": "Billie is a B2B buy now, pay later payment provider focused on invoice and deferred-payment flows for business buyers."
+    },
+    {
+      "question": "Does Billie support multiple currencies?",
+      "answer": "Billie support depends on market and PSP setup, so confirm shopper-facing and settlement currencies in the specific regions where you enable it."
+    }
+  ],
+  "seo": {
+    "seo_title": "Billie payment provider for merchants",
+    "seo_description": "Billie overview for merchants covering payments, acceptance, security, and operations.",
+    "keywords": "Billie, Billie payment provider, Billie approval rate, Billie card declines, payment network, merchant payments"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": null
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

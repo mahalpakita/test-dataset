@@ -1,0 +1,214 @@
+{
+  "name": {
+    "en": "AlipayHK"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "AlipayHK is a digital wallet available for download in the Hong Kong App or Play Store. It's a popular payment method with over 2,000 stores (online and physical) in Hong Kong already accepting it. AlipayHK is only available in Hong Kong.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "alipayhk",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.adyen.com/payment-methods/alipayhk",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "digital_wallets"
+      ],
+      "name": {
+        "en": "AlipayHK"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [
+        "HKD"
+      ],
+      "settlement_currencies": [
+        "HKD"
+      ],
+      "languages": [],
+      "merchant_eligibility_countries": [
+        "HK"
+      ],
+      "shopper_availability_countries": [
+        "HK"
+      ],
+      "channel": [
+        "online"
+      ],
+      "most_used_country": "HK"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "alipayhk",
+  "excerpt": "Hong Kong digital wallet payment method for online acceptance.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/adyen",
+    "stock_id": "0YP5.L",
+    "company_type": null,
+    "employees": "1001",
+    "location": "HK"
+  },
+  "developer_links": [
+    {
+      "label": "Adyen payment method page",
+      "url": "https://www.adyen.com/payment-methods/alipayhk"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Hong Kong wallet acceptance",
+      "description": "Enable AlipayHK for shoppers in Hong Kong who prefer paying from their wallet balance or linked funding source."
+    },
+    {
+      "title": "Online channel support",
+      "description": "Designed for ecommerce checkout flows; present AlipayHK as a local wallet option for Hong Kong shoppers."
+    },
+    {
+      "title": "Currency support (HKD)",
+      "description": "Process and settle AlipayHK transactions in HKD based on the available configuration from your PSP."
+    },
+    {
+      "title": "Authorization performance monitoring",
+      "description": "Track authorization success and declines by shopper region and device to spot issues early and improve approval rates over time."
+    },
+    {
+      "title": "Authentication & checkout UX",
+      "description": "Use a clear redirect/confirmation flow and handle shopper return to your site to reduce drop-off during wallet authorization."
+    },
+    {
+      "title": "Refund handling",
+      "description": "Support refunds where available through your PSP; ensure you store the PSP reference so customer support can reconcile refunds."
+    },
+    {
+      "title": "Disputes and customer support readiness",
+      "description": "Keep order evidence (timestamps, fulfillment, and customer communications) organized to respond efficiently if disputes occur."
+    },
+    {
+      "title": "Multi-currency settlement",
+      "description": "AlipayHK supports settlement across multiple currencies depending on partner or acquirer setup."
+    }
+  ],
+  "tip": "If you see elevated declines, confirm the shopper is in Hong Kong and that AlipayHK is offered only when HKD pricing and the right market conditions are met.",
+  "availability": {
+    "availability_type": "country-specific",
+    "countries": [
+      "HK"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is AlipayHK?",
+      "answer": "AlipayHK is a digital wallet for shoppers in Hong Kong that can be used to pay at participating merchants online and in stores."
+    },
+    {
+      "question": "Where is AlipayHK available?",
+      "answer": "AlipayHK is available only in Hong Kong."
+    },
+    {
+      "question": "Why are AlipayHK payments getting declined?",
+      "answer": "Common causes include offering AlipayHK to shoppers outside Hong Kong, currency/configuration mismatches, or issues in the redirect/return flow; review decline reasons and ensure the method is shown only to eligible shoppers."
+    },
+    {
+      "question": "Is AlipayHK a payment provider or a PSP/acquirer?",
+      "answer": "AlipayHK is the wallet payment method; you typically enable and process it through a PSP (for example, via an integration that supports AlipayHK)."
+    },
+    {
+      "question": "What currency is used for AlipayHK?",
+      "answer": "AlipayHK transactions are typically processed in HKD when supported by your PSP configuration."
+    },
+    {
+      "question": "Does AlipayHK support multiple currencies?",
+      "answer": "AlipayHK is commonly offered for Hong Kong shoppers and HKD pricing, while any settlement flexibility depends on your PSP or acquiring setup."
+    }
+  ],
+  "seo": {
+    "seo_title": "AlipayHK payments",
+    "seo_description": "Accept AlipayHK, a Hong Kong digital wallet payment method, for online checkout.",
+    "keywords": "AlipayHK, Alipay Hong Kong, digital wallet, Hong Kong payments"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": null
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

@@ -1,0 +1,72 @@
+{
+  "name": {
+    "en": "Alipay+"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Alipay+ is a must-have payment method for any business looking to reach shoppers from Asia. \n\nBy adding additional wallets from across Asia to their network, Alipay+ enables 1.3 billion consumers to use their home wallets whenever they travel.\n\nToday, the Alipay+ network consists of 14 different wallets and will expand further. It's already available in 55 markets and adopted by over 2.5 million businesses worldwide.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "alipay-plus",
+  "logo": null,
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "features": [],
+  "url": "https://www.adyen.com/payment-methods/alipay-plus",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "digital_wallets"
+      ],
+      "name": {},
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": []
+    }
+  ],
+  "api_fields": [],
+  "playbooks": []
+}

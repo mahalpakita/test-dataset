@@ -1,0 +1,214 @@
+{
+  "name": {
+    "en": "Atome"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Atome, the multi-market BNPL payment method, is now available for Singapore and Malaysia. Atome supports both ecommerce and POS (static and dynamic QR). With Atome shoppers can split purchases into 3 interest-free installments.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "atome",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.adyen.com/payment-methods/atome",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "bnpl"
+      ],
+      "name": {
+        "en": "Atome"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [
+        "SGD",
+        "MYR"
+      ],
+      "settlement_currencies": [
+        "USD",
+        "MYR",
+        "SGD"
+      ],
+      "languages": [],
+      "merchant_eligibility_countries": [
+        "SG",
+        "MY"
+      ],
+      "shopper_availability_countries": [],
+      "channel": [
+        "online",
+        "in_person"
+      ],
+      "most_used_country": null
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "atome",
+  "excerpt": "Multi-market BNPL for Singapore and Malaysia that supports ecommerce and POS (static and dynamic QR), enabling shoppers to split purchases into 3 interest-free installments.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/adyen",
+    "stock_id": "0YP5.L",
+    "company_type": null,
+    "employees": "1001",
+    "location": null
+  },
+  "developer_links": [
+    {
+      "label": "Adyen payment method page",
+      "url": "https://www.adyen.com/payment-methods/atome"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "BNPL installments at checkout",
+      "description": "Offer Atome so eligible shoppers can split a purchase into 3 interest-free installments."
+    },
+    {
+      "title": "Coverage: Singapore and Malaysia",
+      "description": "Designed for merchants operating in or selling to supported markets; confirm country eligibility in your PSP configuration."
+    },
+    {
+      "title": "Authorization success and declines",
+      "description": "Track Atome-specific authorization/confirmation outcomes separately from cards; optimize your checkout copy and customer prompts to reduce avoidable drop-offs."
+    },
+    {
+      "title": "Refund support",
+      "description": "Supports refunds, including partial refunds, based on your PSP’s capabilities for Atome transactions."
+    },
+    {
+      "title": "Disputes and chargebacks handling",
+      "description": "Where applicable, manage disputes through your PSP’s dispute workflow and keep order/fulfillment evidence ready."
+    },
+    {
+      "title": "Recurring and post-payment operations",
+      "description": "Depending on your PSP setup, Atome can support recurring and multiple partial operations; validate what’s enabled for your merchant account."
+    },
+    {
+      "title": "Online acceptance",
+      "description": "Atome supports ecommerce and other online payment flows."
+    },
+    {
+      "title": "In-person acceptance",
+      "description": "Atome supports in-person checkout and POS acceptance."
+    }
+  ],
+  "tip": "If Atome payments are declining or dropping off, review your Atome-specific payment status/response codes in your PSP.",
+  "availability": {
+    "availability_type": "country-specific",
+    "countries": [
+      "SG",
+      "MY"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is Atome?",
+      "answer": "Atome is a buy now, pay later (BNPL) payment method that allows shoppers to split purchases into installments at checkout."
+    },
+    {
+      "question": "Where is Atome available?",
+      "answer": "Based on the referenced payment method listing, Atome is available for Singapore and Malaysia. Availability can vary by PSP configuration and merchant entity."
+    },
+    {
+      "question": "Can I accept Atome in-store and online?",
+      "answer": "Yes—Atome can be used for ecommerce and POS, including static and dynamic QR flows, depending on how your PSP has enabled the method."
+    },
+    {
+      "question": "Why are Atome payments being declined or not completing?",
+      "answer": "Review the payment result/status and any refusal/response codes returned by your PSP for Atome transactions. Common issues include shopper eligibility, incorrect flow configuration, or customer drop-off during authorization/confirmation."
+    },
+    {
+      "question": "Does Atome support multiple currencies?",
+      "answer": "Atome availability and settlement behavior depend on your PSP and market setup, so confirm supported shopper and settlement currencies in your integration."
+    }
+  ],
+  "seo": {
+    "seo_title": "Atome payment provider for merchants",
+    "seo_description": "Atome overview for merchants covering payments, acceptance, security, and operations.",
+    "keywords": "Atome, Atome payment provider, Atome approval rate, Atome card declines, payment network, merchant payments"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": null
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

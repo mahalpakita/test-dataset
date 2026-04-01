@@ -1,0 +1,179 @@
+{
+  "name": {
+    "en": "Authorize.Net"
+  },
+  "description": {
+    "en": "Authorize.Net is a US payment gateway service provider that helps merchants accept electronic payments online, in person, and by phone, including card payments and eCheck/ACH, with tools such as hosted checkout and a virtual terminal."
+  },
+  "key": "authorize-net",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.authorize.net/",
+  "products": [
+    {
+      "key": null,
+      "type": "processor",
+      "processor_types": [
+        "acquirer"
+      ],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [],
+      "name": {
+        "en": null
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": [],
+      "channel": [],
+      "most_used_country": "US"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Computers Electronics and Technology",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "authorize-net",
+  "excerpt": "Payment gateway service provider for accepting card and bank payments online, in person, and by phone.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/authorize-net",
+    "stock_id": null,
+    "company_type": "business",
+    "employees": 501,
+    "location": null
+  },
+  "developer_links": [
+    {
+      "label": "Authorize.Net",
+      "url": "https://www.authorize.net/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Authorize.Net"
+    },
+    {
+      "label": "Stack Overflow tag",
+      "url": "https://stackoverflow.com/tags/authorize.net"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "In-person and phone payments",
+      "description": "Support card-present and mail/telephone-style acceptance using tools like virtual terminal and compatible readers (as offered)."
+    },
+    {
+      "title": "Recurring and stored billing tools",
+      "description": "Build subscription or installment-style billing flows using customer profiles and recurring payment features where applicable."
+    },
+    {
+      "title": "Security and risk tooling",
+      "description": "Use gateway-side controls and monitoring to help reduce fraud attempts and protect payment data during checkout."
+    },
+    {
+      "title": "Disputes and transaction management",
+      "description": "Search, reconcile, void, refund, and manage transaction lifecycle actions in a single merchant interface."
+    },
+    {
+      "title": "Multiple integration options",
+      "description": "Choose between API-based integration, hosted checkout pages, or manual entry workflows depending on your technical needs."
+    }
+  ],
+  "tip": "When you see higher declines, review the exact response and reason codes, then map them to targeted fixes such as AVS, CVV, fraud settings, or issuer-specific handling.",
+  "availability": {
+    "availability_type": null,
+    "countries": [],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "Is Authorize.Net a payment gateway or a full payment processor?",
+      "answer": "Authorize.Net is primarily a payment gateway; you typically also need a merchant account/acquiring arrangement to process card payments."
+    },
+    {
+      "question": "How can I reduce card declines and improve approval rates?",
+      "answer": "Start by logging issuer response and reason codes, then address common causes like AVS/CVV mismatches, inconsistent billing address formatting, and retry logic for soft declines."
+    },
+    {
+      "question": "Can I take payments over the phone or manually key in a card?",
+      "answer": "Yes—Authorize.Net offers merchant tools such as a virtual terminal-style workflow for manually entering payments, depending on your account configuration."
+    },
+    {
+      "question": "Does Authorize.Net support recurring billing?",
+      "answer": "Authorize.Net provides features commonly used for recurring billing and stored customer payment profiles; exact functionality depends on your integration and account setup."
+    },
+    {
+      "question": "Where do I handle refunds, voids, and transaction lookups?",
+      "answer": "These are typically managed through the Authorize.Net merchant interface and/or via API, depending on how you integrate."
+    }
+  ],
+  "seo": {
+    "seo_title": "Authorize.Net | Payment Gateway",
+    "seo_description": "Authorize.Net is a payment gateway service provider supporting online, in-person, and phone payments, including card payments and eCheck/ACH.",
+    "keywords": "Authorize.Net,payment gateway,credit card processing,eCheck,ACH,virtual terminal,recurring billing"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": "authorize.net",
+    "reddit_subreddit": null,
+    "founded_date": "1996"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

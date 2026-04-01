@@ -1,0 +1,57 @@
+{
+  "name": {
+    "en": "American Express"
+  },
+  "description": {
+    "en": null
+  },
+  "key": "amex",
+  "logo": null,
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "features": [],
+  "url": "https://www.americanexpress.com/",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "cards"
+      ],
+      "name": {},
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": "card_scheme",
+        "network": {
+          "scope": "global_card_network",
+          "network_name": "ExpressNet",
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": []
+    }
+  ],
+  "api_fields": [],
+  "playbooks": []
+}

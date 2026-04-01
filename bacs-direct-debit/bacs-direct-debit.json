@@ -1,0 +1,216 @@
+{
+  "name": {
+    "en": "BACS Direct Debit"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "A Direct Debit is an instruction from a customer to their bank, authorizing a business to collect an agreed amount from their account. BACS is the simplest way for companies to get paid for regular or occasional payments from their UK customers, both business and consumer",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "bacs-direct-debit",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.adyen.com/payment-methods/bacs-direct-debit",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "direct_debit"
+      ],
+      "name": {
+        "en": "BACS Direct Debit"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [
+        "GBP"
+      ],
+      "settlement_currencies": [
+        "GBP"
+      ],
+      "languages": [],
+      "merchant_eligibility_countries": [
+        "GB"
+      ],
+      "shopper_availability_countries": [],
+      "channel": [
+        "online"
+      ],
+      "most_used_country": "GB"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "bacs-direct-debit",
+  "excerpt": "UK bank account Direct Debit collection via the Bacs scheme for recurring or occasional payments.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/adyen",
+    "stock_id": "0YP5.L",
+    "company_type": "public",
+    "employees": 1001,
+    "location": "GB"
+  },
+  "developer_links": [
+    {
+      "label": "Adyen payment method page",
+      "url": "https://www.adyen.com/payment-methods/bacs-direct-debit"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "UK Direct Debit collection",
+      "description": "Collect payments from UK bank accounts using the Bacs Direct Debit scheme, suited to recurring and variable amounts."
+    },
+    {
+      "title": "Online acceptance via PSP",
+      "description": "Typically offered through a PSP such as Adyen as part of a broader payment setup rather than through a card network."
+    },
+    {
+      "title": "Authorization/acceptance outcomes",
+      "description": "Payment success can vary based on mandate status, bank acceptance, and account details; monitor failures to reduce declines."
+    },
+    {
+      "title": "Refund handling",
+      "description": "Support refund flows in your platform where available, and align customer communications with your refund policy and timelines."
+    },
+    {
+      "title": "Disputes and returns",
+      "description": "Direct Debit transactions can be returned or disputed under scheme/bank rules; keep mandate and customer records to help resolve issues."
+    },
+    {
+      "title": "Operational reliability",
+      "description": "Use reconciliation and reference fields consistently to match settlements and customer invoices, improving back-office accuracy."
+    },
+    {
+      "title": "Online acceptance",
+      "description": "BACS Direct Debit supports ecommerce and other online payment flows."
+    },
+    {
+      "title": "Multi-currency settlement",
+      "description": "BACS Direct Debit supports settlement across multiple currencies depending on partner or acquirer setup."
+    }
+  ],
+  "tip": "Reduce payment failures by validating bank account details and ensuring the customer mandate is properly captured, stored, and referenced in your workflow.",
+  "availability": {
+    "availability_type": "country-specific",
+    "countries": [
+      "GB"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is Bacs Direct Debit?",
+      "answer": "It is a UK scheme where the customer authorizes a business (via a mandate) to collect payments from their UK bank account."
+    },
+    {
+      "question": "Where is Bacs Direct Debit available?",
+      "answer": "It is primarily available for UK bank accounts and is generally used for customers in the United Kingdom."
+    },
+    {
+      "question": "Why do Bacs Direct Debit payments fail or get declined?",
+      "answer": "Common causes include an inactive/invalid mandate, incorrect account details, insufficient funds, or a bank return under scheme rules."
+    },
+    {
+      "question": "Is Bacs Direct Debit a card payment method?",
+      "answer": "No. It is a bank account Direct Debit scheme, typically offered through a PSP rather than a card network/acquirer flow."
+    },
+    {
+      "question": "How do disputes work for Bacs Direct Debit?",
+      "answer": "Transactions can be returned or disputed according to scheme and bank rules. Keeping mandate data and customer evidence helps you manage these cases."
+    },
+    {
+      "question": "Is Bacs Direct Debit suitable for subscriptions?",
+      "answer": "Yes. It is commonly used for recurring billing and other repeat-payment use cases where customers prefer paying from a bank account."
+    },
+    {
+      "question": "Does BACS Direct Debit support multiple currencies?",
+      "answer": "BACS Direct Debit is primarily used for GBP-denominated bank debit flows in the UK."
+    }
+  ],
+  "seo": {
+    "seo_title": "Bacs Direct Debit payment method",
+    "seo_description": "Accept Bacs Direct Debit to collect payments from UK bank accounts, commonly used for recurring and occasional payments.",
+    "keywords": "Bacs Direct Debit, UK Direct Debit, bank debit, recurring payments"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": null
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

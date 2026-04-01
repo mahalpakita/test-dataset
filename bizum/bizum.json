@@ -1,0 +1,222 @@
+{
+  "name": {
+    "en": "Bizum"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Bizum is a convenient and secure payment method that enables users in Spain to make instant transactions from their mobile devices. Whether it's sending or receiving money, making online purchases, or splitting expenses with loved ones, Bizum ensures a seamless and efficient payment experience.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "bizum",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.adyen.com/payment-methods/bizum",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "online_banking"
+      ],
+      "name": {
+        "en": "Bizum"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [
+        "EUR"
+      ],
+      "settlement_currencies": [
+        "EUR"
+      ],
+      "languages": [],
+      "merchant_eligibility_countries": [
+        "ES"
+      ],
+      "shopper_availability_countries": [
+        "ES"
+      ],
+      "channel": [
+        "online"
+      ],
+      "most_used_country": "ES"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "bizum",
+  "excerpt": "Spanish mobile payments method for online purchases, authenticated in the shopper’s banking app.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/adyen",
+    "stock_id": "0YP5.L",
+    "company_type": "payment service provider",
+    "employees": "1001",
+    "location": "ES"
+  },
+  "developer_links": [
+    {
+      "label": "Adyen payment method page",
+      "url": "https://www.adyen.com/payment-methods/bizum"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bizum"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Spain-focused acceptance",
+      "description": "Designed for shoppers with Spanish bank accounts enrolled in Bizum. Best suited for Spain-only or Spain-heavy ecommerce."
+    },
+    {
+      "title": "Mobile-first checkout flow",
+      "description": "Shoppers confirm the payment on their phone via their banking app, reducing manual entry during checkout."
+    },
+    {
+      "title": "Real-time payment confirmation",
+      "description": "Payments typically confirm instantly, helping you release digital goods or confirm orders quickly."
+    },
+    {
+      "title": "Approval rates and declines",
+      "description": "Authorization success depends on shopper enrollment, bank app authentication, and bank-side risk checks. Guide users to complete authentication promptly to reduce drop-offs."
+    },
+    {
+      "title": "No card chargebacks (flow differs from cards)",
+      "description": "Bizum payments generally do not follow card chargeback rails. Plan your support and refund processes accordingly based on your PSP’s Bizum capabilities."
+    },
+    {
+      "title": "Refund support via PSP",
+      "description": "Refunds are commonly supported via PSP integrations; ensure your OMS can trigger refunds and reconcile them to Bizum transactions."
+    },
+    {
+      "title": "Security via bank authentication",
+      "description": "Strong user authentication is typically handled in the shopper’s banking environment, reducing exposure of payment credentials in your checkout."
+    },
+    {
+      "title": "Operational reliability considerations",
+      "description": "Customer success depends on bank app availability and the shopper completing the in-app step. Use clear UX messaging and fallback options if a shopper can’t authenticate."
+    }
+  ],
+  "tip": "If you see elevated Bizum declines, add a short checkout prompt reminding shoppers to complete the bank-app approval step quickly after redirect.",
+  "availability": {
+    "availability_type": "country-specific",
+    "countries": [
+      "ES"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is Bizum?",
+      "answer": "Bizum is a Spanish mobile payments system that lets customers pay using their phone number linked to their bank account, confirming the transaction in their banking app."
+    },
+    {
+      "question": "Where is Bizum available?",
+      "answer": "Bizum is primarily used in Spain. Availability depends on the shopper’s bank participation and enrollment."
+    },
+    {
+      "question": "How does Bizum work for online checkout?",
+      "answer": "At checkout the shopper selects Bizum and then completes authentication/confirmation in their banking app to approve the payment."
+    },
+    {
+      "question": "Why are Bizum payments getting declined?",
+      "answer": "Common causes include the shopper not being enrolled, not completing the in-app confirmation in time, bank-side risk checks, or bank app issues. Clear instructions and offering another payment option can help reduce lost conversions."
+    },
+    {
+      "question": "Does Bizum support chargebacks like card payments?",
+      "answer": "Bizum transactions generally do not run on card chargeback rails. Dispute and refund handling depends on your PSP’s Bizum product and processes."
+    },
+    {
+      "question": "Do I need a PSP to accept Bizum?",
+      "answer": "Most merchants accept Bizum through a PSP/payment platform that offers Bizum (for example, Adyen). Your PSP handles the technical integration and settlement reporting."
+    },
+    {
+      "question": "Does Bizum support multiple currencies?",
+      "answer": "Bizum is primarily tied to Spanish bank-account and euro-denominated flows, while settlement handling depends on your PSP setup."
+    }
+  ],
+  "seo": {
+    "seo_title": "Bizum payment method",
+    "seo_description": "Bizum is a Spanish mobile payments method for online purchases, authenticated in the shopper’s banking app.",
+    "keywords": "Bizum, Spain payments, mobile payments, online banking, ecommerce"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": "2016"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

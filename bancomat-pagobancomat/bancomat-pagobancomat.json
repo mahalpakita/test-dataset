@@ -1,0 +1,72 @@
+{
+  "name": {
+    "en": "PagoBancomat / Bancomat"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Bancomat is an Italian interbank network for cash withdrawals widely used in Italy. It was first introduced in 1983 for use with automated teller machines.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "bancomat-pagobancomat",
+  "logo": null,
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "features": [],
+  "url": "https://en.wikipedia.org/wiki/Bancomat_(interbank_network)",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "cards"
+      ],
+      "name": {},
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": "card_scheme",
+        "network": {
+          "scope": "domestic_card_network",
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": false,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": []
+    }
+  ],
+  "api_fields": [],
+  "playbooks": []
+}

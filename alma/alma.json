@@ -1,0 +1,214 @@
+{
+  "name": {
+    "en": "Alma"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Alma is a European Buy Now Pay Later solution serving over 14,000 merchants by offering guaranteed payment facilities to increase their sales and boost customer satisfaction.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "alma",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://almapay.com/",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "bnpl"
+      ],
+      "name": {
+        "en": "Alma (BNPL)"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [
+        "EUR"
+      ],
+      "settlement_currencies": [
+        "EUR"
+      ],
+      "languages": [],
+      "merchant_eligibility_countries": [
+        "FR"
+      ],
+      "shopper_availability_countries": [],
+      "channel": [
+        "online"
+      ],
+      "most_used_country": "FR"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "alma",
+  "excerpt": "European BNPL that lets customers pay in installments or later, designed to improve conversion for online and in-store merchants.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/almapay",
+    "stock_id": null,
+    "company_type": null,
+    "employees": 201,
+    "location": "FR"
+  },
+  "developer_links": [
+    {
+      "label": "Alma",
+      "url": "https://almapay.com/"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "BNPL checkout options",
+      "description": "Offer pay-later or split payments (commonly 2/3/4 installments) depending on your Alma setup and shopper eligibility."
+    },
+    {
+      "title": "Online channel support",
+      "description": "Designed for e-commerce checkout flows; availability can vary by country and PSP integration."
+    },
+    {
+      "title": "Guaranteed payout model (provider-led)",
+      "description": "BNPL providers typically assume repayment from the shopper while paying the merchant, subject to scheme terms and eligibility checks."
+    },
+    {
+      "title": "Authorization success & declines visibility",
+      "description": "Track acceptance/decline reasons (for example eligibility or risk checks) and monitor success rate by channel, device, and cart size."
+    },
+    {
+      "title": "Refunds and disputes handling",
+      "description": "Support for refunds and dispute flows can depend on your PSP; confirm how refunds, partial refunds, and chargebacks are represented in reporting."
+    },
+    {
+      "title": "Operational reporting and reconciliation",
+      "description": "Reconcile BNPL transactions using consistent order references across your PSP, Alma, and your OMS for fewer support cases."
+    },
+    {
+      "title": "Regional coverage",
+      "description": "Primarily used in Europe; confirm supported shopper/merchant countries before launch and tailor messaging per market."
+    },
+    {
+      "title": "Multi-currency settlement",
+      "description": "Alma supports settlement across multiple currencies depending on partner or acquirer setup."
+    }
+  ],
+  "tip": "If you see elevated declines, segment by country, device, and cart value because BNPL eligibility and risk checks often vary across shopper segments.",
+  "availability": {
+    "availability_type": "regional",
+    "countries": [
+      "FR",
+      "BE",
+      "NL"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is Alma?",
+      "answer": "Alma is a buy now, pay later payment provider that lets merchants offer installment-based checkout options to shoppers."
+    },
+    {
+      "question": "How do customers pay with Alma?",
+      "answer": "At checkout, customers select Alma and complete a short eligibility/authorization flow. If approved, they pay over time (installments) or later according to the option offered."
+    },
+    {
+      "question": "Do I integrate Alma directly or through my PSP?",
+      "answer": "Many merchants enable Alma through a PSP/payment platform (for example as a payment method). Whether you need a direct contract or a PSP-only setup depends on your provider arrangement."
+    },
+    {
+      "question": "Where is Alma available?",
+      "answer": "Alma is primarily focused on European markets. Availability and the specific BNPL options offered can vary by country and partner integration."
+    },
+    {
+      "question": "What is ${providerName}?",
+      "answer": "${providerName} is a payment network or payment method used by merchants to accept customer payments."
+    },
+    {
+      "question": "Does Alma support multiple currencies?",
+      "answer": "Alma is primarily associated with European checkout flows, and available shopper or settlement currencies depend on your PSP and market setup."
+    }
+  ],
+  "seo": {
+    "seo_title": "Alma BNPL | Provider overview",
+    "seo_description": "Alma is a European Buy Now Pay Later (BNPL) payment method enabling installment and pay-later options. Learn coverage, integration considerations, and merchant FAQs.",
+    "keywords": "Alma, BNPL, buy now pay later, installments, pay later, Europe"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": "2018"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

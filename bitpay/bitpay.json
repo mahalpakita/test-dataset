@@ -1,0 +1,204 @@
+{
+  "name": {
+    "en": "BitPay"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "BitPay is a bitcoin payment service provider headquartered in Atlanta, Georgia, United States. It was founded in May 2011 by Tony Gallippi and Stephen Pair. BitPay provides Bitcoin and Litecoin payment processing services for merchants",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "bitpay",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://bitpay.com/",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_gateway",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [],
+      "name": {
+        "en": "Crypto payments (BitPay)"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": [],
+      "channel": [],
+      "most_used_country": "US"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "bitpay",
+  "excerpt": "Cryptocurrency payment processor for merchants, enabling acceptance of crypto payments online and in-store.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/bitpay-inc-",
+    "stock_id": null,
+    "company_type": "dot-com company",
+    "employees": 51,
+    "location": null
+  },
+  "developer_links": [
+    {
+      "label": "BitPay",
+      "url": "https://bitpay.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BitPay"
+    },
+    {
+      "label": "Stack Exchange tag",
+      "url": "https://bitcoin.stackexchange.com/tags/bitpay"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Accept crypto at checkout",
+      "description": "Let customers pay with supported cryptocurrencies for online or in-person purchases, while you manage pricing and order workflows."
+    },
+    {
+      "title": "Authorization success considerations",
+      "description": "Crypto payments depend on the shopper completing the payment and the network confirming it; incomplete or expired invoices are a common reason for failed checkouts."
+    },
+    {
+      "title": "Reduce checkout drop-off",
+      "description": "Use clear payment instructions and a visible countdown/expiry indicator so shoppers complete the transfer within the invoice window."
+    },
+    {
+      "title": "Refund and reconciliation support",
+      "description": "Design your operations for crypto-specific refund handling and ensure your order IDs/invoice IDs map cleanly into your accounting and support flows."
+    },
+    {
+      "title": "Security and wallet hygiene",
+      "description": "Follow strong key management practices for any wallets you control, and limit internal access to settlement and payout settings."
+    },
+    {
+      "title": "Disputes differ from cards",
+      "description": "Crypto transactions generally don’t follow card chargeback flows; set customer expectations and document your dispute/returns process clearly."
+    },
+    {
+      "title": "Reliability monitoring",
+      "description": "Track invoice creation, payment completion, and confirmation events so your team can quickly troubleshoot customer-reported payment issues."
+    }
+  ],
+  "tip": "If you see low completion rates, shorten the crypto checkout steps and make the invoice amount, network, wallet instructions, and expiry time very clear.",
+  "availability": {
+    "availability_type": "global",
+    "countries": [],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is BitPay?",
+      "answer": "BitPay is a cryptocurrency payment service provider that helps merchants accept crypto payments from customers."
+    },
+    {
+      "question": "Does BitPay process card payments like a traditional PSP or acquirer?",
+      "answer": "BitPay is primarily focused on cryptocurrency payments and is not a traditional card acquirer; card acquiring capabilities, if any, are separate from standard crypto payment flows."
+    },
+    {
+      "question": "Why do some customer payments fail or remain unpaid?",
+      "answer": "Common causes include the shopper not completing the transfer, sending the wrong amount, using the wrong network/asset, or paying after the invoice expires."
+    },
+    {
+      "question": "How can I improve approval rates or reduce payment declines with BitPay?",
+      "answer": "For crypto checkouts, focus on improving payment completion: clearly display the exact amount, asset/network, and expiry time, and ensure your checkout reliably shows the payment status and next steps."
+    },
+    {
+      "question": "Are there chargebacks with BitPay crypto payments?",
+      "answer": "Crypto payments typically do not follow card chargeback processes; merchants usually handle disputes through their own customer support, returns, and refund policies."
+    },
+    {
+      "question": "Where is BitPay based and when was it founded?",
+      "answer": "BitPay is headquartered in Atlanta, Georgia (USA) and was founded in 2011."
+    }
+  ],
+  "seo": {
+    "seo_title": "BitPay | Crypto payment processor",
+    "seo_description": "BitPay is a cryptocurrency payment service provider that helps merchants accept crypto payments online and in-store.",
+    "keywords": "BitPay, crypto payments, bitcoin payments, cryptocurrency payment processor, merchant crypto checkout"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": "BitPay",
+    "stack_overflow_tag": "https://bitcoin.stackexchange.com/tags/bitpay",
+    "reddit_subreddit": null,
+    "founded_date": "2011"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

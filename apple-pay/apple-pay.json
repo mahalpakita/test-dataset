@@ -1,0 +1,609 @@
+{
+  "name": {
+    "en": "Apple Pay"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "format": "",
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Apple Pay™",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " is a ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "secure and convenient digital wallet",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " from Apple, trusted by ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "millions of users worldwide",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ". It enables customers to ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "add credit, debit, and prepaid cards",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " to the ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "Wallet app",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " and make fast, contactless ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "payments",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " with ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "iPhone, Apple Watch, iPad, and Mac",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ". With just a ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "tap",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " or ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "glance",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ", users can check out in ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "stores, apps, and websites",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " without re-entering payment details. As a ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "global payment solution",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ", Apple Pay operates across ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "dozens of countries",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ", supports ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "multiple currencies",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ", and works with major ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "payment networks",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " and ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "banks",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " worldwide. Every transaction is protected with ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "advanced security",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " and ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "biometric authentication",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ", delivering both ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "speed",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " and ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "safety",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ". For ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "businesses",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ", Apple Pay helps increase ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "conversions",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " while offering customers a ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "modern, seamless checkout experience",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ".",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "textStyle": "",
+            "textFormat": 0
+          }
+        ],
+        "textFormat": 1
+      }
+    }
+  },
+  "key": "apple-pay",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.apple.com/apple-pay/",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "cards"
+      ],
+      "name": {
+        "en": "Apple Pay"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": "network_token_wallet",
+        "network": {
+          "scope": "multi-network",
+          "network_name": null,
+          "uses_network": "tokenized_card_network_rails"
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": [],
+      "channel": [],
+      "most_used_country": null
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "also_known_as",
+      "value": "Pay, ApplePay",
+      "source": "wikidata"
+    },
+    {
+      "key": "brand_industry",
+      "value": "Computers Electronics and Technology",
+      "source": "brandfetch"
+    },
+    {
+      "key": "brand_industries",
+      "value": "Computers Electronics and Technology, Computer Hardware",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "apple-pay",
+  "excerpt": "Apple Pay is Apple’s digital wallet that enables fast, secure payments in-store, in-app, and on the web using tokenized cards and device authentication.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/apple",
+    "stock_id": "AAPL.DE",
+    "company_type": "payment system",
+    "employees": 10001,
+    "location": null
+  },
+  "developer_links": [
+    {
+      "label": "Apple Pay",
+      "url": "https://www.apple.com/apple-pay/"
+    },
+    {
+      "label": "Apple Pay developer docs",
+      "url": "https://developer.apple.com/apple-pay/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apple_Pay"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Approval rates & decline troubleshooting",
+      "description": "If customers see declines, treat Apple Pay like a card authorization: verify your PSP/acquirer routing, currency, and that you’re sending consistent order/customer data to avoid issuer risk declines."
+    },
+    {
+      "title": "Device authentication",
+      "description": "Payments are authenticated with Face ID, Touch ID, or device passcode, helping confirm the cardholder during checkout."
+    },
+    {
+      "title": "Operational reliability through your PSP",
+      "description": "Apple Pay acceptance and uptime depend on your payment processor/acquirer integration and configuration, including domain/app validation where applicable."
+    },
+    {
+      "title": "Customer experience on Apple devices",
+      "description": "A streamlined checkout can improve completion on compatible devices by minimizing form fill and enabling quick confirmation."
+    },
+    {
+      "title": "Dispute monitoring",
+      "description": "Monitor disputes and chargeback trends for Apple Pay by reason code, issuer, and market before broad operational changes."
+    },
+    {
+      "title": "Reliability checks",
+      "description": "Track decline spikes, issuer response patterns, and processor availability to isolate Apple Pay performance issues faster."
+    }
+  ],
+  "tip": "If you see elevated Apple Pay declines, compare authorization responses to the same underlying card type and inspect token, device, and network-specific data in your logs.",
+  "availability": {
+    "availability_type": "global",
+    "countries": [],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is Apple Pay for merchants?",
+      "answer": "Apple Pay is a digital wallet that lets customers pay using tokenized card credentials from their iPhone, Apple Watch, iPad, or Mac, with device-based authentication."
+    },
+    {
+      "question": "Is Apple Pay a payment processor or an acquirer?",
+      "answer": "No. Apple Pay is a wallet/payment method. You typically enable it through your PSP and acquirer that process the underlying card transaction."
+    },
+    {
+      "question": "Where can customers use Apple Pay?",
+      "answer": "Apple Pay can be used in supported stores (contactless), within apps, and on supported websites. Actual availability depends on region, participating issuers, and device support."
+    },
+    {
+      "question": "How should merchants review Apple Pay declines?",
+      "answer": "Review Apple Pay declines by issuer country, card type, currency, tokenization context, and response code before changing routing or retry logic."
+    },
+    {
+      "question": "How should merchants monitor Apple Pay disputes?",
+      "answer": "Track Apple Pay disputes and chargebacks using the same operational controls you use for the underlying card transactions, then segment by issuer, network, and market."
+    }
+  ],
+  "seo": {
+    "seo_title": "Apple Pay | Digital Wallet Payment Method",
+    "seo_description": "Apple Pay is a mobile payment and digital wallet service that enables tokenized card payments in-store, in-app, and on the web with device authentication.",
+    "keywords": "Apple Pay, digital wallet, tokenization, mobile payments, in-app payments, contactless payments"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": "Apple-Pay-2",
+    "stack_overflow_tag": null,
+    "reddit_subreddit": "ApplePay",
+    "founded_date": "2014"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

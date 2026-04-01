@@ -1,0 +1,222 @@
+{
+  "name": {
+    "en": "BankAxept"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "BankAxept is the Norwegian local card payment scheme and is the most widely accepted card for point of sale payments. Payments are approved in real time through the use of a chip and PIN, using contactless NFC technology or by mobile phone. The majority of BankAxept cards are co-branded. From these co-branded cards, almost all cards are co-branded with Visa and some with Mastercard. To process BankAxept payments, Adyen works with Nets, the company that operates the BankAxept scheme.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "bankaxept",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.adyen.com/payment-methods/bankaxept",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "cards"
+      ],
+      "name": {
+        "en": "BankAxept"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": "card_scheme",
+        "network": {
+          "scope": "domestic_card_network",
+          "network_name": "BankAxept Network",
+          "uses_network": null
+        },
+        "type": [
+          "debit"
+        ],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [
+        "NOK"
+      ],
+      "settlement_currencies": [
+        "NOK"
+      ],
+      "languages": [],
+      "merchant_eligibility_countries": [
+        "NO"
+      ],
+      "shopper_availability_countries": [
+        "NO"
+      ],
+      "channel": [
+        "in_person"
+      ],
+      "most_used_country": "NO"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "bankaxept",
+  "excerpt": "Norway’s domestic card scheme for in-person payments, commonly used with chip & PIN and contactless.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/adyen",
+    "stock_id": "0YP5.L",
+    "company_type": "public",
+    "employees": 1001,
+    "location": "NO"
+  },
+  "developer_links": [
+    {
+      "label": "Adyen payment method page",
+      "url": "https://www.adyen.com/payment-methods/bankaxept"
+    },
+    {
+      "label": "Adyen docs",
+      "url": "https://docs.adyen.com/"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Domestic coverage in Norway",
+      "description": "Accept BankAxept for in-person transactions where Norwegian domestic cards are commonly used."
+    },
+    {
+      "title": "Real-time authorization",
+      "description": "Authorizations are typically performed online and approved in real time, helping you confirm payment instantly at the point of sale."
+    },
+    {
+      "title": "Approval rate visibility",
+      "description": "Review BankAxept approval rates and issuer decline patterns by market, card type, and currency before changing routing or retry rules."
+    },
+    {
+      "title": "Manage declines to improve approval rates",
+      "description": "Track decline codes and routing results; optimizing terminal setup and transaction data can reduce avoidable declines and improve authorization success."
+    },
+    {
+      "title": "Multi-currency settlement",
+      "description": "BankAxept supports settlement across multiple currencies depending on partner or acquirer setup."
+    },
+    {
+      "title": "Dispute monitoring",
+      "description": "Monitor disputes and chargeback trends for BankAxept by reason code, issuer, and market before broad operational changes."
+    },
+    {
+      "title": "Reliability checks",
+      "description": "Track decline spikes, issuer response patterns, and processor availability to isolate BankAxept performance issues faster."
+    }
+  ],
+  "tip": "If you see elevated declines, review whether co-branded cards are being routed as BankAxept vs.\ninternational scheme and compare approval rates by route to spot configuration issues.",
+  "availability": {
+    "availability_type": "country-specific",
+    "countries": [
+      "NO"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is BankAxept?",
+      "answer": "BankAxept is Norway’s domestic card payment scheme commonly used for point-of-sale card payments."
+    },
+    {
+      "question": "Where can I offer BankAxept?",
+      "answer": "It is primarily relevant for in-person acceptance in Norway; it is a country-specific payment method."
+    },
+    {
+      "question": "Why do some BankAxept payments get declined?",
+      "answer": "Declines can be caused by issuer decisions, card limits, offline/online authorization conditions, or how a co-branded card is routed (domestic vs international scheme). Reviewing decline codes and routing outcomes helps identify patterns."
+    },
+    {
+      "question": "Are BankAxept cards co-branded with Visa or Mastercard?",
+      "answer": "Many BankAxept cards are co-branded—most commonly with Visa, and some with Mastercard—so the same physical card can support multiple scheme routes."
+    },
+    {
+      "question": "How should I handle disputes for BankAxept transactions?",
+      "answer": "Handle disputes according to the applicable card scheme rules for the transaction. For in-person payments, keeping strong evidence (e.g., receipt and EMV data) can help when responding."
+    },
+    {
+      "question": "How should merchants monitor BankAxept disputes?",
+      "answer": "Track BankAxept disputes, refunds, and routing outcomes by domestic versus international card path before adjusting processing rules."
+    },
+    {
+      "question": "Does BankAxept support multiple currencies?",
+      "answer": "BankAxept is primarily a Norwegian domestic debit network and is commonly presented in NOK, while any settlement flexibility depends on your PSP."
+    }
+  ],
+  "seo": {
+    "seo_title": "BankAxept payments",
+    "seo_description": "Accept BankAxept, Norway’s domestic card scheme, for in-person payments including chip & PIN and contactless.",
+    "keywords": "BankAxept,Norway,domestic card scheme,in-person payments,contactless,chip and PIN"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [
+      "0YP5.L"
+    ],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": "2006"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

@@ -1,0 +1,202 @@
+{
+  "name": {
+    "en": "BENEFIT"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "BENEFIT is the dominant card-based payment method in Bahrain. All debit cards issued are mandated to be branded with this local brand. Out of 1.5 million issued cards, 70% are debit and therefore Benefit",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "benefit",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.adyen.com/payment-methods/benefit",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "cards"
+      ],
+      "name": {
+        "en": "BENEFIT"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": "card_scheme",
+        "network": {
+          "scope": "domestic_card_network",
+          "network_name": "Benefit Network",
+          "uses_network": null
+        },
+        "type": [
+          "debit"
+        ],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [
+        "BHD"
+      ],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": [
+        "BH"
+      ],
+      "channel": [],
+      "most_used_country": "BH"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "benefit",
+  "excerpt": "Domestic debit card network brand in Bahrain (BENEFIT / Benefit Network).",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/adyen",
+    "stock_id": "0YP5.L",
+    "company_type": null,
+    "employees": "1001",
+    "location": "BH"
+  },
+  "developer_links": [
+    {
+      "label": "Adyen payment method page",
+      "url": "https://www.adyen.com/payment-methods/benefit"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Domestic coverage in Bahrain",
+      "description": "Targets shoppers using locally branded BENEFIT debit cards in Bahrain."
+    },
+    {
+      "title": "Approval rate visibility",
+      "description": "Review BENEFIT approval rates and issuer decline patterns by market, card type, and currency before changing routing or retry rules."
+    },
+    {
+      "title": "Online and in-person readiness",
+      "description": "Use where your PSP/acquirer supports BENEFIT for your intended channel and markets."
+    },
+    {
+      "title": "Approval rates and declines",
+      "description": "Declines often relate to issuer restrictions and authentication; send complete billing and shopper data to help authorization success."
+    },
+    {
+      "title": "Authentication support",
+      "description": "Where enabled by your provider setup, 3D Secure can be used to help authenticate cardholders and reduce fraud risk."
+    },
+    {
+      "title": "Refunds and post-payment actions",
+      "description": "Refunds and partial refunds can be supported depending on your PSP/acquirer configuration for BENEFIT."
+    },
+    {
+      "title": "Dispute monitoring",
+      "description": "Monitor disputes and chargeback trends for BENEFIT by reason code, issuer, and market before broad operational changes."
+    },
+    {
+      "title": "Reliability checks",
+      "description": "Track decline spikes, issuer response patterns, and processor availability to isolate BENEFIT performance issues faster."
+    }
+  ],
+  "tip": "If you see higher declines, verify you are routing BENEFIT as the correct domestic network and passing full transaction data before retrying failed payments.",
+  "availability": {
+    "availability_type": "country-specific",
+    "countries": [
+      "BH"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is BENEFIT?",
+      "answer": "BENEFIT is Bahrain’s domestic card brand/network used primarily for debit cards issued in Bahrain."
+    },
+    {
+      "question": "Where can I offer BENEFIT to shoppers?",
+      "answer": "It is mainly relevant for shoppers in Bahrain using BENEFIT-branded debit cards; availability depends on your PSP/acquirer support."
+    },
+    {
+      "question": "How should merchants monitor BENEFIT disputes?",
+      "answer": "Track BENEFIT disputes, refunds, and domestic-network declines by issuer, bank, and market before changing routing or checkout logic."
+    },
+    {
+      "question": "How should merchants monitor BENEFIT disputes?",
+      "answer": "Track BENEFIT disputes, refunds, and domestic-network declines by issuer, bank, and market before changing routing or checkout logic."
+    }
+  ],
+  "seo": {
+    "seo_title": "BENEFIT payments (Bahrain)",
+    "seo_description": "Accept BENEFIT, Bahrain’s domestic card brand/network for debit cards. Learn how availability, authorization, authentication, refunds, and disputes typically work.",
+    "keywords": "BENEFIT,Bahrain,BHD,debit card,domestic card network,Benefit Network"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": null
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

@@ -1,0 +1,225 @@
+{
+  "name": {
+    "en": "Bancontact"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "With 15 million in circulation, there are currently more Bancontact cards than there are Belgians. This makes it the market leader both online and at the point of sale. Bancontact is connected to 20 of the Belgium's banks, and its popularity is set to continue with more shoppers using its recurring payment solution.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "bancontact",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.adyen.com/payment-methods/bancontact",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "cards"
+      ],
+      "name": {
+        "en": "Bancontact Card"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": "card_scheme",
+        "network": {
+          "scope": "domestic_card_network",
+          "network_name": "Bancontact Network",
+          "uses_network": null
+        },
+        "type": [
+          "debit"
+        ],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [
+        "EUR"
+      ],
+      "settlement_currencies": [
+        "EUR"
+      ],
+      "languages": [],
+      "merchant_eligibility_countries": [
+        "BE"
+      ],
+      "shopper_availability_countries": [
+        "BE"
+      ],
+      "channel": [
+        "online",
+        "in_person"
+      ],
+      "most_used_country": "BE"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "bancontact",
+  "excerpt": "Belgian domestic payment scheme for online and in-store payments, commonly used by shoppers in Belgium.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/adyen",
+    "stock_id": "0YP5.L",
+    "company_type": "payment system",
+    "employees": "1001",
+    "location": "BE"
+  },
+  "developer_links": [
+    {
+      "label": "Adyen payment method page",
+      "url": "https://www.adyen.com/payment-methods/bancontact"
+    },
+    {
+      "label": "Bancontact media page",
+      "url": "https://commons.wikimedia.org/wiki/Category:Bancontact"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Belgian domestic scheme reach",
+      "description": "Popular with shoppers in Belgium and connected to major Belgian banks. Useful for local conversion when selling to Belgian customers."
+    },
+    {
+      "title": "Authorization outcomes and declines",
+      "description": "Declines are often driven by issuer rules or authentication requirements; ensure you send complete shopper and transaction details to improve authorization success where possible."
+    },
+    {
+      "title": "Authentication support (3D Secure where applicable)",
+      "description": "If your PSP enables it, use step-up authentication when required to reduce avoidable declines and meet issuer expectations."
+    },
+    {
+      "title": "Refund capabilities",
+      "description": "Refunds and partial refunds may be supported by your PSP; confirm the exact behavior for your integration and reconciliation needs."
+    },
+    {
+      "title": "Disputes and chargebacks handling",
+      "description": "Chargebacks/disputes may be possible for some flows; align evidence collection and customer support workflows with your PSP’s dispute process."
+    },
+    {
+      "title": "EUR processing and settlement",
+      "description": "Typically processed and settled in EUR, simplifying pricing and reconciliation for Belgium-focused sales."
+    },
+    {
+      "title": "Approval rate visibility",
+      "description": "Review Bancontact approval rates and issuer decline patterns by market, card type, and currency before changing routing or retry rules."
+    },
+    {
+      "title": "Authentication strategy",
+      "description": "Check how authentication settings affect friction, soft declines, and authorization success for online Bancontact traffic."
+    }
+  ],
+  "tip": "When you see elevated Bancontact declines, review issuer and PSP response codes and confirm whether authentication or redirect completion failed during checkout.",
+  "availability": {
+    "availability_type": "country-specific",
+    "countries": [
+      "BE"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is Bancontact?",
+      "answer": "Bancontact is a Belgian domestic payment scheme used for everyday purchases online and in stores, commonly linked to Belgian bank accounts and cards."
+    },
+    {
+      "question": "Where is Bancontact available?",
+      "answer": "Bancontact is primarily available to shoppers in Belgium and is most relevant when you sell to Belgian customers."
+    },
+    {
+      "question": "Is Bancontact a PSP or an acquirer?",
+      "answer": "Bancontact is a payment scheme. To accept it, you typically use a PSP/acquirer (for example, via a provider like Adyen) that offers Bancontact processing."
+    },
+    {
+      "question": "Why are some Bancontact payments declined?",
+      "answer": "Declines can result from issuer bank rules, insufficient funds, authentication requirements, or incorrect/missing transaction data. Use your PSP’s decline reason and response codes to identify the cause."
+    },
+    {
+      "question": "Does Bancontact support 3D Secure or authentication?",
+      "answer": "Depending on the processing setup and PSP, authentication (including 3D Secure where applicable) may be supported or required for certain transactions."
+    },
+    {
+      "question": "How should merchants monitor Bancontact disputes?",
+      "answer": "Track Bancontact disputes, refunds, and customer-service issues by issuer, PSP outcome, and market before changing checkout or routing behavior."
+    },
+    {
+      "question": "Does Bancontact support multiple currencies?",
+      "answer": "Bancontact is primarily oriented around Belgium and euro-denominated shopper flows, while settlement options depend on your PSP configuration."
+    }
+  ],
+  "seo": {
+    "seo_title": "Bancontact payments",
+    "seo_description": "Bancontact is a Belgian domestic payment scheme used online and at the point of sale. Learn how it’s commonly accepted and used for Belgium-focused checkout.",
+    "keywords": "Bancontact,Belgium payment method,Bancontact card,domestic scheme"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": "2017"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

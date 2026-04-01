@@ -1,0 +1,490 @@
+{
+  "name": {
+    "en": "Amazon Pay"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "format": "",
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Amazon Pay",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " is a ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "widely trusted digital wallet",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " that leverages the existing credentials of ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "hundreds of millions of Amazon customers worldwide",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ". Auto-enabled for both ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "web and mobile checkouts",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ", it offers shoppers a ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "fast, familiar, and secure payment experience",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " by using the payment details already stored in their Amazon accounts.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "textStyle": "",
+            "textFormat": 1
+          },
+          {
+            "type": "paragraph",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "As a ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "global payment solution",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ", Amazon Pay supports transactions across multiple ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "countries, currencies, and platforms",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ", making it easy for businesses to expand internationally.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "textStyle": "",
+            "textFormat": 0
+          },
+          {
+            "type": "paragraph",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "For ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "merchants",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ", Amazon Pay helps streamline ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "financial reporting, reconciliation, and settlement",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ", while reducing ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "checkout friction",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " and ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "cart abandonment",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ". Integrated with leading payment platforms such as ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "Adyen",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ", it ensures a unified payments flow without adding complexity. According to Amazon, businesses using Amazon Pay see up to a ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "35% improvement in approval rates (AR)",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ", making it a powerful tool to ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "boost conversions, customer trust, and global reach",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ".",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "textStyle": "",
+            "textFormat": 0
+          }
+        ]
+      }
+    }
+  },
+  "key": "amazon-pay",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://pay.amazon.com/",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "digital_wallets"
+      ],
+      "name": {
+        "en": "Amazon Pay"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": [],
+      "channel": [],
+      "most_used_country": "US"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "E-commerce and Shopping",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "amazon-pay",
+  "excerpt": "Digital wallet checkout that lets shoppers pay using the payment and shipping details stored in their Amazon account.",
+  "company_overview": {
+    "linkedin_page": "https://www.linkedin.com/company/amazon-pay/",
+    "stock_id": "0R1O.IL",
+    "company_type": "dot-com company",
+    "employees": "10001",
+    "location": null
+  },
+  "developer_links": [
+    {
+      "label": "Amazon Pay",
+      "url": "https://pay.amazon.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amazon_Pay"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Familiar wallet checkout for Amazon customers",
+      "description": "Shoppers can use the payment methods and shipping addresses already saved in their Amazon account, reducing manual entry at checkout."
+    },
+    {
+      "title": "Reconciliation and reporting",
+      "description": "Amazon Pay provides transaction reporting to support reconciliation; align order IDs and payment references between your ecommerce platform, PSP, and Amazon Pay views."
+    },
+    {
+      "title": "Authorization outcomes and declines",
+      "description": "Like any payment method, transactions can be authorized or declined based on buyer, instrument, and risk signals. Monitor decline reasons and compare wallet performance vs. other tender types."
+    },
+    {
+      "title": "Disputes and chargeback handling",
+      "description": "Dispute and customer inquiry processes may differ from card processing flows. Ensure your support and evidence processes cover wallet-originated transactions."
+    },
+    {
+      "title": "Refunds and order adjustments",
+      "description": "Operational flows such as refunds are typically handled through the Amazon Pay merchant tools and/or your connected PSP workflow, depending on integration."
+    }
+  ],
+  "tip": "If you see higher declines on Amazon Pay than other methods, verify your order totals, currency, shipping address, and shopper details before blaming issuer behavior.",
+  "availability": {
+    "availability_type": null,
+    "countries": [],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is Amazon Pay?",
+      "answer": "Amazon Pay is a digital wallet that lets shoppers pay on participating merchant sites using the payment and shipping details stored in their Amazon account."
+    },
+    {
+      "question": "Do I need a payment service provider (PSP) or acquirer if I add Amazon Pay?",
+      "answer": "Often yes—Amazon Pay is a payment method, and many merchants connect it through an existing PSP/ecommerce platform integration. The exact setup depends on your platform and region."
+    },
+    {
+      "question": "Why are some Amazon Pay payments declined?",
+      "answer": "Declines can happen for many reasons such as insufficient funds, issuer or account restrictions, risk checks, data mismatches, or configuration issues. Review the decline reason data available in your integration and compare patterns across checkout steps."
+    },
+    {
+      "question": "Where is Amazon Pay available?",
+      "answer": "Amazon Pay availability varies by country and program. Confirm supported merchant and shopper countries directly in Amazon Pay’s documentation or merchant onboarding materials for your region."
+    },
+    {
+      "question": "How do refunds and cancellations work with Amazon Pay?",
+      "answer": "Refunds are initiated through Amazon Pay merchant tools and/or via your platform/PSP connection, depending on how you integrated. Make sure your customer support and accounting teams know the correct process for your setup."
+    },
+    {
+      "question": "How are disputes handled for Amazon Pay transactions?",
+      "answer": "Dispute handling can differ from standard card chargeback flows. Use Amazon Pay’s merchant tools and guidance for responding to disputes and tracking outcomes, and keep order/shipping evidence organized."
+    }
+  ],
+  "seo": {
+    "seo_title": "Amazon Pay payment provider for merchants",
+    "seo_description": "Amazon Pay overview for merchants covering payments, acceptance, security, and operations.",
+    "keywords": "Amazon Pay, Amazon Pay payment provider, Amazon Pay approval rate, Amazon Pay card declines, payment network, merchant payments"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": "2007"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

@@ -1,0 +1,192 @@
+{
+  "name": {
+    "en": "Billink"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Paying later is the way to convince your customer to make a purchase. In addition to Klarna and Riverty, Billink also offers a safe solution to increase the turnover in your webshop!\n\nThis payment method is pioneer in the field of pay later payment methods and is an innovative payment solution for online retail. With the reliable knowledge of more than 11.6 million Dutch consumers and companies, Billink is your after-sales payment solution. Safe, reliable, fast ... and Dutch. With Billink cart abandonment is something from the past. That is why",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "billink",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.billink.nl/en/",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "bnpl"
+      ],
+      "name": {
+        "en": "Billink"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": [],
+      "channel": [],
+      "most_used_country": "NL"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "billink",
+  "excerpt": "Dutch pay-later method where shoppers receive their order first and pay the invoice afterwards (often within 14 days).",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/billink-b-v-/",
+    "stock_id": null,
+    "company_type": null,
+    "employees": 11,
+    "location": "NL"
+  },
+  "developer_links": [
+    {
+      "label": "Billink",
+      "url": "https://www.billink.nl/en/"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Pay later (post-payment) checkout option",
+      "description": "Let shoppers complete the purchase now and pay the invoice afterwards, reducing friction for customers who prefer to pay after delivery."
+    },
+    {
+      "title": "Netherlands-focused method",
+      "description": "Designed for Dutch consumers and businesses; best positioned for merchants selling to shoppers in the Netherlands."
+    },
+    {
+      "title": "Invoice-based customer flow",
+      "description": "Typically supports an invoice-style experience (order first, pay later) rather than card authentication flows."
+    },
+    {
+      "title": "Authorization success depends on shopper data quality",
+      "description": "Approval/acceptance outcomes can be sensitive to the completeness and consistency of shopper identity and address details provided at checkout."
+    },
+    {
+      "title": "Refund and adjustment handling is flow-dependent",
+      "description": "Operational steps for returns/refunds can vary by how Billink is connected via your PSP; align your back-office process with your integration."
+    },
+    {
+      "title": "PSP integration varies by provider",
+      "description": "Capabilities, settlement reporting, and support processes may differ depending on whether you enable Billink directly or via a payment service provider."
+    },
+    {
+      "title": "Customer communication and reminders matter",
+      "description": "Clear messaging that the payment is due after delivery (and by what date) can help reduce payment delays and support tickets."
+    }
+  ],
+  "tip": "To improve acceptance, collect full shopper name, email, phone, and delivery address, then pass the same details consistently through the approval flow.",
+  "availability": {
+    "availability_type": "country-specific",
+    "countries": [
+      "NL"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is Billink?",
+      "answer": "Billink is a Dutch pay-later payment method that lets shoppers receive their order first and pay the invoice afterwards (often within 14 days)."
+    },
+    {
+      "question": "Is Billink a PSP or an acquirer?",
+      "answer": "Billink is a payment method/provider. You typically enable it through a PSP or via a direct integration, depending on your setup."
+    },
+    {
+      "question": "Where is Billink available?",
+      "answer": "Billink is primarily used in the Netherlands; availability to your shop depends on your business location and your PSP’s support for Billink."
+    },
+    {
+      "question": "Why are some Billink transactions declined?",
+      "answer": "Declines can occur when shopper details are incomplete or inconsistent (for example, missing address fields) or when the provider’s checks do not approve the transaction."
+    }
+  ],
+  "seo": {
+    "seo_title": "Billink payment provider for merchants",
+    "seo_description": "Billink overview for merchants covering payments, acceptance, security, and operations.",
+    "keywords": "Billink, Billink payment provider, Billink approval rate, Billink card declines, payment network, merchant payments"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": "2011"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

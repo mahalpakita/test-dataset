@@ -1,0 +1,209 @@
+{
+  "name": {
+    "en": "BillDesk"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "BillDesk is an Indian online payment gateway company based in Mumbai. The company provides an online payment platform for its clients which enables banking and merchant website transactions.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "billdesk",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.billdesk.com/web/",
+  "products": [
+    {
+      "key": null,
+      "type": "processor",
+      "processor_types": [
+        "payment_gateway"
+      ],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [],
+      "name": {
+        "en": null
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": [],
+      "channel": [],
+      "most_used_country": "IN"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Programming and Developer Software",
+      "source": "brandfetch"
+    },
+    {
+      "key": "brand_industries",
+      "value": "Programming and Developer Software, Computers Electronics and Technology",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "billdesk",
+  "excerpt": "Indian online payment gateway company offering payment solutions for businesses.",
+  "company_overview": {
+    "linkedin_page": null,
+    "stock_id": null,
+    "company_type": "website",
+    "employees": 501,
+    "location": null
+  },
+  "developer_links": [
+    {
+      "label": "BillDesk",
+      "url": "https://www.billdesk.com/web/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BillDesk"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "India-focused payment gateway",
+      "description": "Designed for merchants operating in India and serving customers paying via local banking and online payment flows."
+    },
+    {
+      "title": "Merchant checkout integration options",
+      "description": "Typically integrated into web and app checkout flows to route customers from your site into a payment experience and back to confirmation."
+    },
+    {
+      "title": "Authorization outcomes and declines visibility",
+      "description": "Track authorization responses and decline reasons to identify issues like invalid details, insufficient funds, or issuer/bank rejections."
+    },
+    {
+      "title": "Authentication and security readiness",
+      "description": "Plan for customer authentication steps when required and ensure your checkout UX clearly guides customers through verification."
+    },
+    {
+      "title": "Refund and reconciliation workflows",
+      "description": "Support operational needs such as refunds and payment status tracking so finance teams can reconcile orders to payouts."
+    },
+    {
+      "title": "Disputes and exception handling",
+      "description": "Put processes in place to respond to disputes or failed payments quickly, including retaining evidence and customer communications."
+    },
+    {
+      "title": "Reliability and monitoring",
+      "description": "Use logging and monitoring around payment initiation and callbacks to detect timeouts, duplicates, and intermittent failures early."
+    }
+  ],
+  "tip": "For better approval rates, log and analyze decline reasons and retry only when appropriate, especially for temporary bank or issuer outages.",
+  "availability": {
+    "availability_type": "country-specific",
+    "countries": [
+      "IN"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is BillDesk?",
+      "answer": "BillDesk is an India-based online payment gateway company that provides a platform for processing digital payments between customers, banks, and merchants."
+    },
+    {
+      "question": "Is BillDesk a payment gateway or an acquirer?",
+      "answer": "BillDesk is generally described as a payment gateway/payment platform. Acquiring (card acceptance with an acquiring bank) may still involve separate banking partners depending on your setup."
+    },
+    {
+      "question": "Where is BillDesk primarily available?",
+      "answer": "BillDesk is primarily associated with India and is commonly used for merchants and customers transacting in India."
+    },
+    {
+      "question": "How can I improve approval rates and reduce declines?",
+      "answer": "Capture and review the decline reason returned for failed payments, verify customer data quality (name, phone, email), and implement smart retries only for soft/temporary failures."
+    },
+    {
+      "question": "How should my system handle payment status updates?",
+      "answer": "Store transaction references, treat callbacks/redirects as potentially duplicated, and reconcile final status using your internal order state and provider payment status."
+    },
+    {
+      "question": "How do I handle disputes or chargebacks?",
+      "answer": "Maintain order evidence (invoices, delivery proof, customer communications) and respond within required timelines using the dispute process provided by your payment partners."
+    }
+  ],
+  "seo": {
+    "seo_title": "BillDesk | Payment Gateway (India)",
+    "seo_description": "BillDesk is an Indian online payment gateway company based in Mumbai, providing an online payment platform for banking and merchant website transactions.",
+    "keywords": "BillDesk,payment gateway,India,online payments"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": null
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

@@ -1,0 +1,223 @@
+{
+  "name": {
+    "en": "BLIK"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The most popular mobile payment method in Poland. BLIK is a system embedded in banking applications and covered by all major Polish banks. Currently, over 90% of all customers of Polish financial institutions have the option to use BLIK in mobile banking applications.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "blik",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.adyen.com/payment-methods/blik",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "online_banking"
+      ],
+      "name": {
+        "en": "BLIK"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [
+        "PLN"
+      ],
+      "settlement_currencies": [
+        "PLN"
+      ],
+      "languages": [],
+      "merchant_eligibility_countries": [
+        "PL"
+      ],
+      "shopper_availability_countries": [
+        "PL"
+      ],
+      "channel": [
+        "online",
+        "in_person"
+      ],
+      "most_used_country": "PL"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "blik",
+  "excerpt": "Poland’s popular bank-embedded mobile payment method using one-time codes and in-app confirmation.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/adyen",
+    "stock_id": "0YP5.L",
+    "company_type": "payment system",
+    "employees": "1001",
+    "location": "PL"
+  },
+  "developer_links": [
+    {
+      "label": "Adyen payment method page",
+      "url": "https://www.adyen.com/payment-methods/blik"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blik"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Strong local coverage in Poland",
+      "description": "BLIK is widely available through major Polish banks’ mobile apps, making it a familiar checkout option for local shoppers."
+    },
+    {
+      "title": "Mobile-first authorization flow",
+      "description": "Customers generate a one-time BLIK code in their banking app and confirm the payment, reducing the need to enter long payment details."
+    },
+    {
+      "title": "Approval rates and declines",
+      "description": "Authorization success can depend on correct code entry, code expiration timing, and customer confirmation in their banking app—optimize UX to reduce avoidable declines."
+    },
+    {
+      "title": "Security via in-app confirmation",
+      "description": "Transactions are confirmed in the shopper’s banking app, adding an authentication step without relying on card details."
+    },
+    {
+      "title": "Refund support (provider/PSP dependent)",
+      "description": "Refund availability and timing depend on your PSP and integration; verify supported operations (full/partial) in your provider documentation."
+    },
+    {
+      "title": "Disputes and chargeback handling",
+      "description": "Dispute processes vary by PSP and scheme rules; ensure you capture order and customer evidence to respond effectively."
+    },
+    {
+      "title": "Online acceptance",
+      "description": "BLIK supports ecommerce and other online payment flows."
+    },
+    {
+      "title": "In-person acceptance",
+      "description": "BLIK supports in-person checkout and POS acceptance."
+    }
+  ],
+  "tip": "Reduce BLIK declines by clearly prompting customers to enter the 6-digit code promptly and then confirm the payment in their banking app.",
+  "availability": {
+    "availability_type": "country-specific",
+    "countries": [
+      "PL"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is BLIK?",
+      "answer": "BLIK is a Polish account-to-account and code-based payment method used for ecommerce and other bank-linked checkout flows."
+    },
+    {
+      "question": "Where is BLIK available?",
+      "answer": "BLIK is primarily available in Poland and is typically used by customers of Polish banks that support BLIK in their mobile apps."
+    },
+    {
+      "question": "Why are BLIK payments sometimes declined?",
+      "answer": "Common causes include an incorrect or expired code, the customer not confirming the payment in their banking app in time, or bank-side restrictions. Improve on-screen instructions and timeouts to reduce user-driven declines."
+    },
+    {
+      "question": "Is BLIK a card payment method?",
+      "answer": "No. BLIK is a bank-embedded mobile payment method and does not require customers to enter card details at checkout."
+    },
+    {
+      "question": "Does BLIK support refunds and partial refunds?",
+      "answer": "Refund support depends on the PSP and how the payment method is enabled in your integration. Confirm the supported refund operations in your provider’s documentation."
+    },
+    {
+      "question": "What is BLIK?",
+      "answer": "BLIK is a Polish account-to-account and code-based payment method used for ecommerce and other bank-linked checkout flows."
+    },
+    {
+      "question": "Does BLIK support multiple currencies?",
+      "answer": "BLIK is primarily used for Polish shopper flows and PLN transactions, while any settlement flexibility depends on your PSP or merchant setup."
+    }
+  ],
+  "seo": {
+    "seo_title": "BLIK payment provider for merchants",
+    "seo_description": "BLIK overview for merchants covering payments, acceptance, security, and operations.",
+    "keywords": "BLIK, BLIK payment provider, BLIK approval rate, BLIK card declines, payment network, merchant payments"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": "2015"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

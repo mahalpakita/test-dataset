@@ -1,0 +1,215 @@
+{
+  "name": {
+    "en": "7-Eleven Malaysia"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This cash-based payment method lets customers order goods and services online while still being able to pay using cash. Though cash is decreasing in usage with existing government initiatives to go digital fueled by the pandemic, cash is still used by a segment of the Malaysian population who are underbanked and a certain demographic. 7-Eleven is the largest chain of convenience stores in Malaysia, with over 2,400 stores nationwide.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "7-eleven-malaysia",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.adyen.com/payment-methods/7-eleven-malaysia",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "cash"
+      ],
+      "name": {
+        "en": "7-Eleven Malaysia"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [
+        "MYR"
+      ],
+      "settlement_currencies": [
+        "MYR",
+        "USD"
+      ],
+      "languages": [],
+      "merchant_eligibility_countries": [
+        "MY"
+      ],
+      "shopper_availability_countries": [
+        "MY"
+      ],
+      "channel": [
+        "online"
+      ],
+      "most_used_country": "MY"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "7-eleven-malaysia",
+  "excerpt": "Cash-based online payment method for Malaysian shoppers to pay at 7-Eleven stores after placing an order online.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/adyen",
+    "stock_id": "0YP5.L",
+    "company_type": null,
+    "employees": "1001",
+    "location": "MY"
+  },
+  "developer_links": [
+    {
+      "label": "Adyen payment method page",
+      "url": "https://www.adyen.com/payment-methods/7-eleven-malaysia"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Reach cash-preferred shoppers in Malaysia",
+      "description": "Let customers place orders online and pay in cash at participating 7-Eleven locations, supporting shoppers without cards or online banking."
+    },
+    {
+      "title": "Online voucher/reference-based payment flow",
+      "description": "Checkout typically generates a reference for in-store payment. Ensure the reference is clearly shown and sent to the shopper."
+    },
+    {
+      "title": "Authorization outcomes drive success rates",
+      "description": "Most failures happen when shoppers don’t complete the cash payment in time. Use clear instructions and reminders to improve payment completion rates."
+    },
+    {
+      "title": "Refund handling depends on PSP configuration",
+      "description": "Refund availability and timelines vary by your PSP setup. Confirm whether refunds/partial refunds are supported in your integration before enabling them."
+    },
+    {
+      "title": "Lower chargeback exposure than card payments",
+      "description": "Cash payments generally reduce classic card chargebacks, but you still need processes for customer service, returns, and proof of fulfillment."
+    },
+    {
+      "title": "Reconciliation and reporting readiness",
+      "description": "Use consistent order references and map paid/unpaid states in your system to simplify reconciliation between your storefront and PSP reports."
+    },
+    {
+      "title": "Customer support considerations",
+      "description": "Prepare support macros for “where to pay” and “how to use the reference” to reduce abandoned payments and inbound tickets."
+    },
+    {
+      "title": "Multi-currency settlement",
+      "description": "7-Eleven Malaysia supports settlement across multiple currencies depending on partner or acquirer setup."
+    }
+  ],
+  "tip": "Show the in-store payment reference prominently, send it by email or SMS, and make the payment deadline clear to improve completion rates.",
+  "availability": {
+    "availability_type": "country-specific",
+    "countries": [
+      "MY"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is 7-Eleven Malaysia as a payment method?",
+      "answer": "It’s a cash payment method where the shopper places an order online and completes the payment in cash at participating 7-Eleven stores in Malaysia using a reference/voucher."
+    },
+    {
+      "question": "Where is 7-Eleven Malaysia available?",
+      "answer": "It is intended for shoppers in Malaysia and is used for payments completed at 7-Eleven stores within Malaysia."
+    },
+    {
+      "question": "Why do payments sometimes fail or appear as declined?",
+      "answer": "For cash-based methods, the most common reason is non-completion: the shopper doesn’t pay in-store before the deadline or uses an incorrect reference. Clear instructions and reminders help improve completion rates."
+    },
+    {
+      "question": "Is 7-Eleven Malaysia the provider, or is Adyen the provider?",
+      "answer": "7-Eleven is the cash acceptance brand/channel. Adyen (or another PSP) is typically the payment service provider that offers the integration and reporting for the method."
+    },
+    {
+      "question": "Are chargebacks possible with 7-Eleven Malaysia?",
+      "answer": "Cash payments generally don’t have card-style chargebacks, but merchants still need to handle customer disputes, refunds, and service issues through their normal support and PSP processes."
+    },
+    {
+      "question": "Does 7-Eleven Malaysia support multiple currencies?",
+      "answer": "7-Eleven Malaysia is commonly presented to shoppers in MYR, while settlement options can vary depending on your PSP or acquiring setup."
+    }
+  ],
+  "seo": {
+    "seo_title": "7-Eleven Malaysia payment method",
+    "seo_description": "Accept cash payments in Malaysia via 7-Eleven: shoppers order online and pay in-store using a reference. Coverage, currencies, and key considerations.",
+    "keywords": "7-Eleven Malaysia,cash payment Malaysia,pay in store,offline cash payment,Adyen payment method"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": null
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

@@ -1,0 +1,195 @@
+{
+  "name": {
+    "en": "ACI Worldwide"
+  },
+  "description": {
+    "en": "ACI Worldwide is a global payments technology company providing software and services for real-time payments and electronic payment processing for banks, merchants, and billers."
+  },
+  "key": "aci",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.aciworldwide.com/",
+  "products": [
+    {
+      "key": null,
+      "type": "processor",
+      "processor_types": [
+        "acquirer"
+      ],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [],
+      "name": {
+        "en": null
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [],
+      "settlement_currencies": [],
+      "languages": [],
+      "merchant_eligibility_countries": [],
+      "shopper_availability_countries": [],
+      "channel": [],
+      "most_used_country": "US"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "also_known_as",
+      "value": "ACI Worldwide, Inc., ACIW, Applied Communications, Inc., ACI, Transaction Systems Architects, TSA",
+      "source": "wikidata"
+    },
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    },
+    {
+      "key": "brand_industries",
+      "value": "Finance, Computers Electronics and Technology, Programming and Developer Software, Business and Consumer Services",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "aci",
+  "excerpt": "Payments technology provider delivering real-time payments and mission-critical payment software for banks, merchants, and billers.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/aci-worldwide",
+    "stock_id": "ACIW",
+    "company_type": "business",
+    "employees": 1001,
+    "location": null
+  },
+  "developer_links": [
+    {
+      "label": "ACI Worldwide",
+      "url": "https://www.aciworldwide.com/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ACI_Worldwide"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "Payment processing software for enterprise flows",
+      "description": "Offers payments platforms used by banks, billers, and large merchants to run authorization and payment processing operations."
+    },
+    {
+      "title": "Multi-channel payments support (platform-dependent)",
+      "description": "Supports payment experiences across channels such as eCommerce and in-store depending on the ACI solution and your acquiring setup."
+    },
+    {
+      "title": "Improving approval rates starts with decline visibility",
+      "description": "Use issuer response/decline codes, retry logic governance, and clean customer data to reduce avoidable declines and lift authorization success over time."
+    },
+    {
+      "title": "Security and authentication capabilities (solution-specific)",
+      "description": "Provides tools that can support secure payment processing and authentication flows, depending on the product deployed and your integrations."
+    },
+    {
+      "title": "Disputes and exception management (when enabled)",
+      "description": "Operational tooling may support handling chargebacks and payment exceptions as part of broader payment operations workflows."
+    },
+    {
+      "title": "High availability operations at scale",
+      "description": "Built for mission-critical payment operations, with deployment and reliability characteristics depending on your implementation and hosting model."
+    },
+    {
+      "title": "Real-time payments focus",
+      "description": "Strong positioning in real-time payments and banking-related payment rails, typically implemented by financial institutions and processors."
+    }
+  ],
+  "tip": "To reduce declines, log and analyze issuer response codes by reason category, then separate data-quality issues from issuer-risk and fraud-screening problems before changing routing.",
+  "availability": {
+    "availability_type": "global",
+    "countries": [],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "Is ACI Worldwide a PSP like Stripe or an enterprise payments platform?",
+      "answer": "ACI is primarily an enterprise payments technology provider. It often powers or integrates with banks, processors, and large merchants rather than acting as a simple out-of-the-box PSP for SMBs."
+    },
+    {
+      "question": "Can ACI help improve approval rates / reduce card declines?",
+      "answer": "It can support workflows and data needed to optimize authorization performance, but results depend on your acquirer setup, issuer behavior, and how you configure data quality, routing, and retry policies."
+    },
+    {
+      "question": "Where is ACI available?",
+      "answer": "ACI operates globally, but product availability, contracting, and supported rails vary by region and by the ACI solution you use."
+    },
+    {
+      "question": "Does ACI provide fraud and risk tools?",
+      "answer": "ACI offers fraud and risk-related capabilities in some solutions, but exact features and integrations depend on the product and deployment you choose."
+    },
+    {
+      "question": "How are disputes/chargebacks handled with ACI?",
+      "answer": "Dispute handling is typically part of broader payment operations and depends on your acquiring partners and the ACI modules you implement; you should confirm supported workflows in your project scope."
+    }
+  ],
+  "seo": {
+    "seo_title": "ACI Worldwide (ACI) — Payments Technology Provider",
+    "seo_description": "Profile of ACI Worldwide, a global payments technology company providing real-time payments and payment processing software for banks, merchants, and billers.",
+    "keywords": "ACI, ACI Worldwide, payments technology, real-time payments, payment processing, Universal Payments"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [
+      "ACIW"
+    ],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": "1975"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}

@@ -1,0 +1,233 @@
+{
+  "name": {
+    "en": "Affirm"
+  },
+  "description": {
+    "en": {
+      "root": {
+        "type": "root",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Affirm offers flexible payment options and customizable programs for merchants from any industry, across the full spectrum of average order values.\n\nMore than a payment provider, Affirm is a powerful marketing tool, with targeted products for every step of the consumer journey. Drive conversion, boost average order value, and grow your customer base — all while meeting your unique business needs.",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "key": "affirm",
+  "docs_url": null,
+  "status_page_url": null,
+  "risk_appetite": null,
+  "integration_methods": [],
+  "status": "inactive",
+  "url": "https://www.adyen.com/payment-methods/affirm",
+  "products": [
+    {
+      "key": null,
+      "type": "payment_method",
+      "processor_types": [],
+      "licenses": [],
+      "processor_membership": [],
+      "spons": [],
+      "3ds_supported_protocols": [],
+      "fraud_prevention_methods": [],
+      "dispute_resolution_methods": [],
+      "payment_method_types": [
+        "bnpl"
+      ],
+      "name": {
+        "en": "Affirm"
+      },
+      "processor_payment_methods": [],
+      "card": {
+        "payment_method_subtype": null,
+        "network": {
+          "scope": null,
+          "network_name": null,
+          "uses_network": null
+        },
+        "type": [],
+        "card_length": [],
+        "luhn_validation_required": true,
+        "security_code": {
+          "label": null,
+          "length": null
+        }
+      },
+      "processing_currencies": [
+        "USD"
+      ],
+      "settlement_currencies": [
+        "USD"
+      ],
+      "languages": [],
+      "merchant_eligibility_countries": [
+        "GB",
+        "US",
+        "CA"
+      ],
+      "shopper_availability_countries": [],
+      "channel": [
+        "online",
+        "in_person"
+      ],
+      "most_used_country": "US"
+    }
+  ],
+  "api_fields": [
+    {
+      "key": "also_known_as",
+      "value": "Affirm Holdings",
+      "source": "wikidata"
+    },
+    {
+      "key": "brand_industry",
+      "value": "Finance",
+      "source": "brandfetch"
+    }
+  ],
+  "slug": "affirm",
+  "excerpt": "Buy now, pay later (BNPL) financing that lets shoppers pay over time with terms shown at checkout.",
+  "company_overview": {
+    "linkedin_page": "https://linkedin.com/company/adyen",
+    "stock_id": "0YP5.L",
+    "company_type": "business",
+    "employees": "1001",
+    "location": "US"
+  },
+  "developer_links": [
+    {
+      "label": "Affirm website",
+      "url": "https://www.affirm.com/"
+    },
+    {
+      "label": "Affirm for business",
+      "url": "https://www.affirm.com/business"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Affirm_Holdings"
+    },
+    {
+      "label": "How it works",
+      "url": "https://www.affirm.com/how-it-works"
+    }
+  ],
+  "content_features": [
+    {
+      "title": "BNPL at checkout",
+      "description": "Offer pay-over-time options where eligible shoppers can choose a plan during checkout and complete the purchase without leaving the flow."
+    },
+    {
+      "title": "US dollar processing and settlement",
+      "description": "This payment method is commonly configured to process and settle in USD; confirm any additional currency support with your PSP."
+    },
+    {
+      "title": "Authorization outcomes impact conversion",
+      "description": "Like any payment method, authorization approvals/declines affect conversion—monitor decline reasons and retry behavior to tune your checkout."
+    },
+    {
+      "title": "Refund handling",
+      "description": "Support refunds (including partial refunds where enabled by your PSP) so you can manage returns while keeping reconciliation consistent."
+    },
+    {
+      "title": "Disputes and chargebacks",
+      "description": "Chargebacks can occur; align order evidence (delivery, customer communications, timestamps) to speed dispute responses."
+    },
+    {
+      "title": "Clear customer messaging",
+      "description": "Present financing terms and eligibility messaging clearly in checkout to reduce confusion, drop-off, and support contacts."
+    },
+    {
+      "title": "Online acceptance",
+      "description": "Affirm supports ecommerce and other online payment flows."
+    },
+    {
+      "title": "In-person acceptance",
+      "description": "Affirm supports in-person checkout and POS acceptance."
+    }
+  ],
+  "tip": "Track Affirm declines separately from card declines, and review decline reason codes plus checkout messaging to reduce avoidable drop-off.",
+  "availability": {
+    "availability_type": "regional",
+    "countries": [
+      "US",
+      "CA"
+    ],
+    "note": null,
+    "source_url": null
+  },
+  "faq": [
+    {
+      "question": "What is Affirm?",
+      "answer": "Affirm is a buy now, pay later (BNPL) provider that lets eligible shoppers pay over time with installment or other financing plans presented at checkout."
+    },
+    {
+      "question": "Is Affirm a PSP or an acquirer?",
+      "answer": "Affirm is a payment method/financing provider. You typically enable it through your PSP (for example, via a payment platform integration) rather than using it as a card acquirer."
+    },
+    {
+      "question": "Where is Affirm available?",
+      "answer": "Affirm is primarily associated with the United States and Canada. Exact availability and eligibility can vary by integration partner and merchant account setup."
+    },
+    {
+      "question": "Why are Affirm payments being declined?",
+      "answer": "Declines can be driven by shopper eligibility, transaction details, or policy/risk checks. Track decline reasons from your PSP, confirm required fields are being sent, and ensure checkout messaging is clear before prompting the shopper to try another method."
+    },
+    {
+      "question": "Does Affirm support refunds and partial refunds?",
+      "answer": "Refund capabilities (including partial refunds) depend on your PSP/integration. Confirm which refund operations are enabled in your payment platform and test end-to-end flows."
+    },
+    {
+      "question": "Does Affirm support multiple currencies?",
+      "answer": "Affirm is most commonly used for USD checkout flows, and any additional currency or settlement support depends on your PSP and merchant configuration."
+    }
+  ],
+  "seo": {
+    "seo_title": "Affirm (BNPL) payment method",
+    "seo_description": "Affirm is a buy now, pay later payment method that lets shoppers pay over time with terms shown at checkout. Learn key considerations for acceptance, declines, and refunds.",
+    "keywords": "Affirm, BNPL, buy now pay later, installment payments, pay over time"
+  },
+  "wordpress": {
+    "statuses_groups": [],
+    "tickers": [],
+    "quora_topic_id": null,
+    "stack_overflow_tag": null,
+    "reddit_subreddit": null,
+    "founded_date": "2012"
+  },
+  "settlement": {
+    "settlement_delay_days": null,
+    "rolling_reserve": null,
+    "reserve_supported": null
+  },
+  "onboarding": {
+    "speed": null,
+    "kyc_required": null,
+    "underwriting_required": null
+  },
+  "risk_controls": {
+    "high_risk_supported": null
+  },
+  "sdk_support": {
+    "sdk_languages": [],
+    "mobile_sdks": [],
+    "server_sdks": []
+  },
+  "pricing": {
+    "interchange_plus": null,
+    "blended": null,
+    "flat_fee": null,
+    "custom": null
+  },
+  "compliance": {
+    "pci_support": null
+  },
+  "playbooks": []
+}
